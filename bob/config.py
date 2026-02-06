@@ -35,7 +35,7 @@ class BobConfig:
     mtg_remote: ModelConfig = ModelConfig(
         base_url=os.getenv("BOB_MTG_BASE_URL", os.getenv("OPENAI_BASE_URL", "https://api.openai.com/v1")).rstrip("/"),
         api_key=os.getenv("BOB_MTG_API_KEY", os.getenv("OPENAI_API_KEY", "")).strip(),
-        model=os.getenv("BOB_MTG_MODEL", "mistralai/ministral-3-14b-reasoning"),
+        model=os.getenv("BOB_MTG_MODEL", os.getenv("BOB_CHAT_MODEL", "gpt-5")),
     )
 
     route_mtg_to_remote: bool = os.getenv("BOB_ROUTE_MTG_REMOTE", "true").lower() in {"1", "true", "yes"}

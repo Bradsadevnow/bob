@@ -13,7 +13,7 @@ env/
 runtime/
 *.jsonl
 *.log
-
+spec/
 # Editor / OS
 .vscode/
 .idea/

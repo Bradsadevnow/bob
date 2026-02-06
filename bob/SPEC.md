@@ -14,6 +14,19 @@ Legacy prototype folders have been purged; `bob/` is the only active runtime.
 - **Tools are gated**: filesystem/code access is enabled per session and always logged.
  - **Continuity is compact**: each turn updates `active_context`/`open_threads` with short, non-transcript summaries.
 
+## Model configuration (runtime)
+- **OpenAI-compatible client**: MTG and chat calls use the Chat Completions API at `.../chat/completions`.
+- **Base URLs**:
+  - `BOB_CHAT_BASE_URL` (fallback: `OPENAI_BASE_URL`, default: `https://api.openai.com/v1`)
+  - `BOB_MTG_BASE_URL` (fallback: `OPENAI_BASE_URL`, default: `https://api.openai.com/v1`)
+- **API keys**:
+  - `BOB_CHAT_API_KEY` (fallback: `OPENAI_API_KEY`)
+  - `BOB_MTG_API_KEY` (fallback: `OPENAI_API_KEY`)
+- **Model IDs**:
+  - Chat: `BOB_CHAT_MODEL` (default: `gpt-4o-mini`).
+  - MTG: `BOB_MTG_MODEL` (default: `BOB_CHAT_MODEL`, otherwise `gpt-5`).
+- **Routing**: `BOB_ROUTE_MTG_REMOTE=true` routes MTG to the remote model by default.
+
 ## Turn pipeline (stages)
 1) THINK/RECALL (internal)
    - understand input + constraints

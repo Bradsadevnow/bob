@@ -20,8 +20,8 @@ This spec documents the phase-1 Magic: The Gathering rules engine and its contro
 - `cli_base.py`: terminal UI for a human player (action list + prompts).
 - `tui_base.py`: Textual UI single-turn view + optional reasoning prompt.
 - `dpg_ui.py`: Dear PyGui playtest UI (mouse-driven, action schema driven).
-- `ai_pregame.py`: LLM mulligan/bottom decision surface (strict JSON I/O).
-- `ai_live.py`: LLM live action chooser using action schema (strict JSON I/O + validation).
+- `ai_pregame.py`: LLM mulligan/bottom decision surface (strict JSON I/O + normalization).
+- `ai_live.py`: LLM live action chooser using action schema (strict JSON I/O + normalization + validation).
 - `ai_broker.py`: background asyncio loop + OpenAI async client wrapper.
 - `ai_trace.py`: append-only AI trace logging (`runtime/ai_trace.jsonl`).
 - `data/cards_phase1.json`: phase-1 card DB (Scryfall-based schema).
@@ -86,6 +86,21 @@ Supported `ActionType` values (phase-1):
 - Targeting is driven by `TargetSpec` selectors (see `cards.py`).
 - Hexproof prevents opponents from targeting a permanent.
 - Some effects require multi-target groups (e.g., source/target pairs, equipment attach).
+- Action schema target shapes:
+  - `targets` is a list of target groups, where each group is a list of target dicts.
+  - Each target dict includes `type` plus `instance_id` and/or `player_id`.
+  - Single-target spells may still present one group with one target.
+
+## AI decision surfaces (normalization)
+- Pregame (`ai_pregame.py`):
+  - Mulligan/bottom outputs are strict JSON, but bottom selections are normalized.
+  - `bottom` may be instance IDs, card IDs (if unambiguous), or indices; entries are deduped.
+  - If fewer/more than required, the list is auto-filled/truncated to the exact count before validation.
+- Live (`ai_live.py`):
+  - Actions are normalized against the action schema before validation.
+  - Object IDs are recovered from indices/card_id/name when unambiguous.
+  - Targets are matched to canonical schema targets (including grouped targets) and rewritten to the canonical form.
+  - Common payload slips (mode indices, x values, single additional cost choice, ability costs) are coerced when safe.
 
 ## Abilities and effects
 
