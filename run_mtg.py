@@ -165,7 +165,14 @@ def build_player_from_deck(pid: str, deck: Dict[str, Any], is_ai: bool) -> Playe
     cards: List[CardInstance] = []
 
     for entry in deck["cards"]:
-        cid = entry["id"]
+        # Support legacy "id" and current "card_id" deck schemas.
+        if "id" in entry:
+            cid = entry["id"]
+        elif "card_id" in entry:
+            cid = entry["card_id"]
+        else:
+            raise KeyError(f"Deck card entry missing 'id' or 'card_id' in deck '{deck.get('name', 'unknown')}'")
+
         count = int(entry["count"])
 
         for _ in range(count):
@@ -464,7 +471,7 @@ def run_match_setup(
 
 def prompt_for_control(player_id: str) -> str:
     print(f"\nControl type for {player_id}:")
-    print("  [0] Human (CLI/TUI)")
+    print("  [0] Human (DPG/TUI)")
     print("  [1] Bob (local)")
     print("  [2] GPT (remote)")
 
@@ -490,8 +497,8 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--ui",
         choices=["tui", "plain", "dpg"],
-        default="tui",
-        help="UI for human players (tui, plain, dpg)",
+        default="dpg",
+        help="UI for human players (tui, plain, dpg). Default: dpg",
     )
     parser.add_argument("--cli", action="store_true", help="Use basic CLI for human players")
     return parser.parse_args()
@@ -843,7 +850,7 @@ def run_interactive(*, ui: str) -> None:
     actions_ai = ActionSurface(allow_scoop=False)
 
     controllers = {}
-    ui = (ui or "tui").strip().lower()
+    ui = (ui or "dpg").strip().lower()
     use_cli_ui = ui == "plain"
     use_dpg_ui = ui == "dpg"
     tui_available = ui == "tui"

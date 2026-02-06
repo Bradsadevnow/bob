@@ -591,6 +591,7 @@ class ActionSurface:
         generic_pool = int(pool.get("generic", 0) or 0)
 
         reduction = self._cost_reduction_for_spell(card, visible, player_id)
+        generic_cost = max(0, int(card.mana_cost.generic) - reduction)
         for color, amount in card.mana_cost.colored.items():
             available = int(colored_pool.get(color.value, 0))
             any_pool = int(colored_pool.get("ANY", 0))

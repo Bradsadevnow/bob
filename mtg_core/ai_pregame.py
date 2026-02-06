@@ -149,6 +149,7 @@ class AIPregameDecider:
             data = {"bottom": recovered, "reasoning": ""}
 
         bottom = data.get("bottom")
+        bottom = _normalize_bottom_selection(bottom, ctx)
         if not isinstance(bottom, list):
             raise RuntimeError(f"Invalid bottom payload: {data}")
 
@@ -279,3 +280,57 @@ def _recover_bottom_from_raw(raw: str) -> Optional[List[str]]:
     inner = match.group(1)
     ids = re.findall(r'"([^"]+)"', inner)
     return ids or None
+
+
+def _normalize_bottom_selection(bottom: Any, ctx: BottomContext) -> List[str]:
+    hand_ids = [c.instance_id for c in ctx.hand]
+    id_by_card_id: Dict[str, Optional[str]] = {}
+    for c in ctx.hand:
+        if c.card_id not in id_by_card_id:
+            id_by_card_id[c.card_id] = c.instance_id
+        else:
+            id_by_card_id[c.card_id] = None
+
+    if bottom is None:
+        raw_list: List[Any] = []
+    elif isinstance(bottom, list):
+        raw_list = list(bottom)
+    elif isinstance(bottom, dict):
+        raw_list = [bottom]
+    else:
+        raw_list = [bottom]
+
+    normalized: List[str] = []
+    for entry in raw_list:
+        cid = None
+        if isinstance(entry, dict):
+            cid = entry.get("instance_id") or entry.get("id")
+            if cid is None and "card_id" in entry:
+                cid = id_by_card_id.get(entry.get("card_id"))
+        elif isinstance(entry, int):
+            if 0 <= entry < len(hand_ids):
+                cid = hand_ids[entry]
+        elif isinstance(entry, str):
+            if entry in hand_ids:
+                cid = entry
+            elif entry.isdigit():
+                idx = int(entry)
+                if 0 <= idx < len(hand_ids):
+                    cid = hand_ids[idx]
+            else:
+                cid = id_by_card_id.get(entry)
+        if cid is None:
+            continue
+        if cid not in normalized:
+            normalized.append(cid)
+
+    if len(normalized) > ctx.bottoming_required:
+        normalized = normalized[: ctx.bottoming_required]
+    elif len(normalized) < ctx.bottoming_required:
+        for cid in hand_ids:
+            if cid not in normalized:
+                normalized.append(cid)
+                if len(normalized) >= ctx.bottoming_required:
+                    break
+
+    return normalized

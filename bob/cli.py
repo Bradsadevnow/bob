@@ -139,7 +139,7 @@ def main() -> None:
     ltm = FileLTMStore(cfg.ltm_file)
 
     print(f"{cfg.display_name} CLI — type 'exit' to quit")
-    print("Commands: /mtg play [tui|plain|dpg]  (interactive MTG match)")
+    print("Commands: /mtg play [tui|plain|dpg]  (interactive MTG match, default: dpg)")
     print("          /turbotime <tool|off>  (select TURBOTIME tool)")
     print("          /turbotime tools       (list available tools)")
     print("          /practice             (practice/learn candidate scan)")
@@ -161,14 +161,14 @@ def main() -> None:
             sub = parts[1].lower() if len(parts) > 1 else "help"
             if sub in {"help", "-h", "--help"}:
                 print("MTG commands:")
-                print("  /mtg play [tui|plain|dpg]   Start an interactive match (you vs Bob)")
+                print("  /mtg play [tui|plain|dpg]   Start an interactive match (default: dpg)")
                 continue
             if sub == "play":
                 from run_mtg import run_interactive
 
-                ui = (parts[2].lower() if len(parts) > 2 else "tui").strip()
+                ui = (parts[2].lower() if len(parts) > 2 else "dpg").strip()
                 if ui not in {"tui", "plain", "dpg"}:
-                    ui = "tui"
+                    ui = "dpg"
                 run_interactive(ui=ui)
                 continue
 

@@ -633,19 +633,37 @@ class _DPGPlaytestUI:
                 parts.append(symbols[color] * count)
         return "".join(parts) if parts else "0"
 
-    def _build_target_map(self, targets: List[Dict[str, Any]]) -> Dict[str, Dict[str, Any]]:
-        out: Dict[str, Dict[str, Any]] = {}
-        for tgt in targets:
-            label = self._format_target(tgt)
+    def _build_target_map(self, targets: List[Any]) -> Dict[str, Any]:
+        out: Dict[str, Any] = {}
+        if not targets:
+            return out
+        if all(isinstance(t, dict) for t in targets):
+            combos: List[Any] = [targets]
+        else:
+            combos = list(targets)
+        for combo in combos:
+            combo_list = combo
+            if isinstance(combo, dict):
+                combo_list = [combo]
+            label = self._format_target_group(combo_list)
             if label in out:
-                if tgt.get("type") == "PERMANENT":
-                    label = f"{label} ({tgt.get('instance_id')})"
-                else:
-                    label = f"{label} ({len(out)})"
-            out[label] = tgt
+                label = f"{label} ({len(out)})"
+            out[label] = combo_list
         return out
 
-    def _format_target(self, target: Dict[str, Any]) -> str:
+    def _format_target_group(self, targets: Any) -> str:
+        if isinstance(targets, dict):
+            return self._format_target(targets)
+        if not isinstance(targets, list):
+            return "Unknown target"
+        labels = [self._format_target(t) for t in targets if isinstance(t, dict)]
+        return " + ".join(labels) if labels else "Unknown target"
+
+    def _format_target(self, target: Any) -> str:
+        if not isinstance(target, dict):
+            if isinstance(target, list):
+                return self._format_target_group(target)
+            return "Unknown target"
         if target.get("type") == "PLAYER":
             return f"Player {target.get('player_id')}"
         if target.get("type") == "PERMANENT":

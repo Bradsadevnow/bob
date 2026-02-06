@@ -1,0 +1,91 @@
+Bradley R. Bates
+357 Lindsay Farm Dr.
+Stony Point, NC 28678
+916-718-7171
+GitHub: https://github.com/Bradsadevnow/bob
+
+Hiring Manager
+Wizards of the Coast
+
+Re: AI Stack Engineer – Game Management Integration
+
+Dear Hiring Manager,
+
+I’m writing to apply for the AI Stack Engineer position at Wizards of the Coast. Over the past year, I’ve built a fully integrated AI gameplay ecosystem centered around a deterministic Magic: The Gathering rules engine and a human-auditable AI runtime designed to safely operate, learn, and improve within complex, hidden-information rule systems.
+
+At the core of this ecosystem is mtg_core, an authoritative MTG rules engine that owns all game state mutation. Surrounding it is Bob, a unified AI runtime that handles reasoning, learning, memory governance, tool use, logging, and human oversight. Together, they form a complete AI → engine → reflection → learning loop that is already implemented and in active use.
+
+What Bob is—and why it matters
+
+Bob is not a chatbot wrapper and not a black-box agent. It is an AI runtime designed specifically for rules-driven environments where correctness, trust, and long-term improvement matter more than raw autonomy.
+
+The system is structured around strict separation of concerns:
+
+Authoritative truth lives only in deterministic engines like mtg_core.
+
+AI decision-making is constrained to player-scoped visible state and schema-defined legal actions.
+
+Learning is explicit and auditable, never implicit or silent.
+
+Memory is governed, with short-term continuity separated from long-term knowledge that requires human approval.
+
+This allows Bob to learn from play and discussion without ever mutating game truth, leaking hidden information, or accumulating unchecked beliefs.
+
+How learning works in practice
+
+During gameplay, Bob operates strictly within the legal action schema produced by mtg_core. Every decision, resolution, and outcome is logged deterministically.
+
+After or during play, Bob can engage in human discussion—answering questions, explaining why a play was legal, or reflecting on outcomes. From these interactions and from repeated gameplay patterns, Bob can propose learning candidates such as:
+
+recurring strategic mistakes or improvements,
+
+player preferences (pace, tutoring style, deck tendencies),
+
+short, falsifiable lessons tied to specific archetypes or mechanics.
+
+Crucially, Bob cannot commit these learnings on its own. All long-term memory writes are proposed, reviewed, edited if necessary, and explicitly approved by a human, with a permanent audit log. Game-specific hidden information and in-progress tactical details are never stored as durable knowledge.
+
+This creates a learning loop that is:
+
+grounded in real gameplay,
+
+shaped by human feedback,
+
+safe against rules hallucination,
+
+and fully inspectable after the fact.
+
+How mtg_core integrates into this loop
+
+In live play, mtg_core produces a player-visible snapshot of the game state. Bob uses this snapshot to enumerate a bounded schema of legal actions. The AI selects one action, submits it back to the engine, and mtg_core validates and resolves it.
+
+The AI never mutates state directly. It never invents actions. It never sees hidden zones. All outcomes are deterministic and replayable.
+
+This is not theoretical. I’ve already integrated the AI directly into the engine and implemented phase-1 Magic gameplay end-to-end: priority, stack resolution, mana and costs (including alternate and additional costs), combat, triggered and activated abilities, state-based actions, flashback, equipment, and dozens of card-specific effects.
+
+What this enables for Wizards of the Coast
+
+This ecosystem enables AI integration without compromising Magic’s integrity:
+
+AI opponents that improve over time while always playing legally.
+
+Teaching and tutoring systems that can explain decisions grounded in real game state.
+
+Internal design and balance tooling that can run large numbers of auditable simulations.
+
+Debuggable learning where you can see why the AI changed its behavior.
+
+Just as importantly, the system is designed to fail safely. When something goes wrong, it’s visible, traceable, and correctable by humans.
+
+Why Wizards of the Coast
+
+I built this ecosystem because I wanted to understand how AI can participate in one of the most complex rule systems ever created without eroding player trust. Magic is uniquely suited to this work, and Wizards is one of the few places where a system like this could meaningfully contribute across digital play, internal tooling, and player education.
+
+I don’t claim to have implemented every edge case in Magic’s decades-deep ruleset. What I have built is an architecture explicitly designed to scale to that complexity—and a working AI integration that already demonstrates safe play, explanation, and learning.
+
+I’d welcome the opportunity to discuss how Bob and mtg_core map to the systems you’re building today, and how this approach could evolve inside Wizards’ ecosystem.
+
+Thank you for your time and consideration.
+
+Sincerely,
+Bradley R. Bates
