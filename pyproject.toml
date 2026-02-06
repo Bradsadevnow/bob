@@ -1,0 +1,26 @@
+[project]
+name = "bob-runtime"
+version = "0.1.0"
+description = "Bob: stage-based agent runtime with explicit memory approval and MTG grounding."
+requires-python = ">=3.12"
+dependencies = [
+  "gradio>=4.0.0",
+  "openai>=1.0.0",
+  "chromadb>=0.5.0",
+]
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["bob*"]
+
+[project.optional-dependencies]
+dev = [
+  "ruff>=0.6.0",
+]
+
+[tool.ruff]
+line-length = 110

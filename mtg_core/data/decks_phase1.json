@@ -1,0 +1,189 @@
+{
+  "schema_version": 1,
+  "decks": [
+    {
+      "deck_id": "glorious_combat",
+      "name": "Glorious Combat",
+      "format": "Freeform",
+      "colors": ["W"],
+      "cards": [
+        { "card_id": "heavenly_blademaster", "count": 1 },
+        { "card_id": "zamriel_seraph_of_steel", "count": 1 },
+        { "card_id": "banisher_priest", "count": 2 },
+        { "card_id": "captain_of_the_watch", "count": 1 },
+        { "card_id": "danitha_capashen_paragon", "count": 1 },
+        { "card_id": "forbidding_spirit", "count": 1 },
+        { "card_id": "kitesail_apprentice", "count": 2 },
+        { "card_id": "kor_duelist", "count": 2 },
+        { "card_id": "kor_outfitter", "count": 2 },
+        { "card_id": "pilgrim_of_the_ages", "count": 2 },
+        { "card_id": "serra_angel", "count": 2 },
+        { "card_id": "howling_golem", "count": 1 },
+
+        { "card_id": "ancestral_blade", "count": 2 },
+        { "card_id": "path_to_exile", "count": 1 },
+        { "card_id": "strength_of_arms", "count": 1 },
+        { "card_id": "swords_to_plowshares", "count": 1 },
+        { "card_id": "valorous_stance", "count": 2 },
+        { "card_id": "vow_of_duty", "count": 1 },
+
+        { "card_id": "argentum_armor", "count": 1 },
+        { "card_id": "colossus_hammer", "count": 1 },
+        { "card_id": "greatsword", "count": 1 },
+        { "card_id": "moonsilver_spear", "count": 1 },
+        { "card_id": "ring_of_thune", "count": 1 },
+        { "card_id": "sword_of_vengeance", "count": 1 },
+        { "card_id": "trusty_machete", "count": 2 },
+
+        { "card_id": "basic_plains", "count": 26 }
+      ]
+    },
+
+    {
+      "deck_id": "political_trickery",
+      "name": "Political Trickery",
+      "format": "Freeform",
+      "colors": ["U"],
+      "cards": [
+        { "card_id": "diluvian_primordial", "count": 1 },
+        { "card_id": "maeve_insidious_singer", "count": 1 },
+        { "card_id": "angler_drake", "count": 1 },
+        { "card_id": "angler_turtle", "count": 1 },
+        { "card_id": "brineborn_cutthroat", "count": 3 },
+        { "card_id": "fog_bank", "count": 2 },
+        { "card_id": "illusory_ambusher", "count": 2 },
+        { "card_id": "jeering_homunculus", "count": 1 },
+        { "card_id": "murmuring_mystic", "count": 3 },
+        { "card_id": "sea_gate_oracle", "count": 2 },
+        { "card_id": "howling_golem", "count": 1 },
+
+        { "card_id": "counterspell", "count": 1 },
+        { "card_id": "fact_or_fiction", "count": 2 },
+        { "card_id": "impulse", "count": 2 },
+        { "card_id": "plea_for_power", "count": 1 },
+        { "card_id": "precognitive_perception", "count": 1 },
+        { "card_id": "pull_from_tomorrow", "count": 1 },
+        { "card_id": "repulse", "count": 1 },
+        { "card_id": "run_away_together", "count": 2 },
+        { "card_id": "split_decision", "count": 1 },
+        { "card_id": "supreme_will", "count": 1 },
+        { "card_id": "talrands_invocation", "count": 2 },
+        { "card_id": "vow_of_flight", "count": 1 },
+        { "card_id": "bloodthirsty_blade", "count": 1 },
+
+        { "card_id": "basic_island", "count": 25 }
+      ]
+    },
+
+    {
+      "deck_id": "dark_sacrifice",
+      "name": "Dark Sacrifice",
+      "format": "Freeform",
+      "colors": ["B"],
+      "cards": [
+        { "card_id": "gravewaker", "count": 1 },
+        { "card_id": "vogar_necropolis_tyrant", "count": 1 },
+        { "card_id": "bushmeat_poacher", "count": 1 },
+        { "card_id": "demon_of_loathing", "count": 1 },
+        { "card_id": "doomed_dissenter", "count": 2 },
+        { "card_id": "dusk_legion_zealot", "count": 1 },
+        { "card_id": "fleshbag_marauder", "count": 1 },
+        { "card_id": "gavony_unhallowed", "count": 2 },
+        { "card_id": "gifted_aetherborn", "count": 2 },
+        { "card_id": "lord_of_the_accursed", "count": 2 },
+        { "card_id": "maalfeld_twins", "count": 1 },
+        { "card_id": "priest_of_the_blood_rite", "count": 1 },
+        { "card_id": "ravenous_chupacabra", "count": 1 },
+        { "card_id": "reassembling_skeleton", "count": 1 },
+        { "card_id": "vilis_broker_of_blood", "count": 1 },
+        { "card_id": "howling_golem", "count": 1 },
+
+        { "card_id": "bloodsoaked_altar", "count": 1 },
+        { "card_id": "demonic_embrace", "count": 1 },
+        { "card_id": "doom_blade", "count": 3 },
+        { "card_id": "lilianas_mastery", "count": 1 },
+        { "card_id": "moan_of_the_unhallowed", "count": 2 },
+        { "card_id": "sign_in_blood", "count": 2 },
+        { "card_id": "supernatural_stamina", "count": 1 },
+        { "card_id": "village_rites", "count": 2 },
+        { "card_id": "vow_of_torment", "count": 1 },
+
+        { "card_id": "basic_swamp", "count": 26 }
+      ]
+    },
+
+    {
+      "deck_id": "draconic_fury",
+      "name": "Draconic Fury",
+      "format": "Freeform",
+      "colors": ["R"],
+      "cards": [
+        { "card_id": "drakuseth_maw_of_flames", "count": 1 },
+        { "card_id": "nogi_draco_zealot", "count": 1 },
+        { "card_id": "ancient_hellkite", "count": 1 },
+        { "card_id": "dragon_egg", "count": 1 },
+        { "card_id": "dragon_hatchling", "count": 2 },
+        { "card_id": "dragon_mage", "count": 1 },
+        { "card_id": "dragonspeaker_shaman", "count": 3 },
+        { "card_id": "flameblast_dragon", "count": 1 },
+        { "card_id": "flametongue_kavu", "count": 1 },
+        { "card_id": "furnace_whelp", "count": 2 },
+        { "card_id": "goblin_motivator", "count": 1 },
+        { "card_id": "kargan_dragonrider", "count": 3 },
+        { "card_id": "knollspine_dragon", "count": 1 },
+        { "card_id": "rapacious_dragon", "count": 2 },
+        { "card_id": "shivan_dragon", "count": 1 },
+        { "card_id": "howling_golem", "count": 1 },
+
+        { "card_id": "abrade", "count": 2 },
+        { "card_id": "blaze", "count": 2 },
+        { "card_id": "crucible_of_fire", "count": 1 },
+        { "card_id": "dragon_tempest", "count": 1 },
+        { "card_id": "lightning_bolt", "count": 2 },
+        { "card_id": "mana_geyser", "count": 1 },
+        { "card_id": "seize_the_spoils", "count": 2 },
+        { "card_id": "vow_of_lightning", "count": 1 },
+
+        { "card_id": "basic_mountain", "count": 25 }
+      ]
+    },
+
+    {
+      "deck_id": "boundless_elves",
+      "name": "Boundless Elves",
+      "format": "Freeform",
+      "colors": ["G"],
+      "cards": [
+        { "card_id": "elvish_archdruid", "count": 1 },
+        { "card_id": "imaryll_elfhame_elite", "count": 1 },
+        { "card_id": "beast_whisperer", "count": 1 },
+        { "card_id": "dwynens_elite", "count": 2 },
+        { "card_id": "elvish_rejuvenator", "count": 2 },
+        { "card_id": "elvish_skysweeper", "count": 1 },
+        { "card_id": "elvish_visionary", "count": 3 },
+        { "card_id": "end_raze_forerunners", "count": 1 },
+        { "card_id": "immaculate_magistrate", "count": 1 },
+        { "card_id": "joraga_visionary", "count": 1 },
+        { "card_id": "llanowar_elves", "count": 3 },
+        { "card_id": "llanowar_tribe", "count": 2 },
+        { "card_id": "sylvan_messenger", "count": 2 },
+        { "card_id": "taunting_elf", "count": 1 },
+        { "card_id": "thorn_lieutenant", "count": 1 },
+        { "card_id": "thornweald_archer", "count": 2 },
+        { "card_id": "howling_golem", "count": 1 },
+
+        { "card_id": "broken_wings", "count": 1 },
+        { "card_id": "elven_ambush", "count": 1 },
+        { "card_id": "invigorate", "count": 2 },
+        { "card_id": "overrun", "count": 1 },
+        { "card_id": "rabid_bite", "count": 1 },
+        { "card_id": "ram_through", "count": 1 },
+        { "card_id": "regrowth", "count": 1 },
+        { "card_id": "vow_of_wildness", "count": 1 },
+        { "card_id": "wirewood_pride", "count": 1 },
+
+        { "card_id": "basic_forest", "count": 24 }
+      ]
+    }
+  ]
+}

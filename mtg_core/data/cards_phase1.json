@@ -1,0 +1,3619 @@
+{
+  "schema_version": 1,
+  "cards": [
+    {
+      "card_id": "heavenly_blademaster",
+      "name": "Heavenly Blademaster",
+      "scryfall_id": "53f34f41-bbd8-4424-88a3-b97a795b6daf",
+      "set": "cmm",
+      "collector_number": "28",
+      "lang": "en",
+      "released_at": "2023-08-04",
+      "uri": "https://api.scryfall.com/cards/53f34f41-bbd8-4424-88a3-b97a795b6daf",
+      "scryfall_uri": "https://scryfall.com/card/cmm/28/heavenly-blademaster?utm_source=api",
+      "type_line": "Creature — Angel",
+      "mana_cost": "{5}{W}",
+      "cmc": 6.0,
+      "oracle_text": "Flying, double strike\nWhen this creature enters, you may attach any number of Auras and Equipment you control to it.\nOther creatures you control get +1/+1 for each Aura and Equipment attached to this creature.",
+      "colors": [
+        "W"
+      ],
+      "color_identity": [
+        "W"
+      ],
+      "rarity": "rare",
+      "power": "3",
+      "toughness": "6",
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/5/3/53f34f41-bbd8-4424-88a3-b97a795b6daf.jpg?1689995717",
+        "normal": "https://cards.scryfall.io/normal/front/5/3/53f34f41-bbd8-4424-88a3-b97a795b6daf.jpg?1689995717",
+        "large": "https://cards.scryfall.io/large/front/5/3/53f34f41-bbd8-4424-88a3-b97a795b6daf.jpg?1689995717"
+      }
+    },
+    {
+      "card_id": "zamriel_seraph_of_steel",
+      "name": "Zamriel, Seraph of Steel",
+      "scryfall_id": "bc883e4e-e5f5-4823-ac2a-9ff8b7772926",
+      "set": "gn3",
+      "collector_number": "1",
+      "lang": "en",
+      "released_at": "2022-10-14",
+      "uri": "https://api.scryfall.com/cards/bc883e4e-e5f5-4823-ac2a-9ff8b7772926",
+      "scryfall_uri": "https://scryfall.com/card/gn3/1/zamriel-seraph-of-steel?utm_source=api",
+      "type_line": "Legendary Creature — Angel",
+      "mana_cost": "{2}{W}{W}",
+      "cmc": 4.0,
+      "oracle_text": "Flying\nDuring your turn, equipped creatures you control have indestructible.",
+      "colors": [
+        "W"
+      ],
+      "color_identity": [
+        "W"
+      ],
+      "rarity": "mythic",
+      "power": "3",
+      "toughness": "4",
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/b/c/bc883e4e-e5f5-4823-ac2a-9ff8b7772926.jpg?1673301229",
+        "normal": "https://cards.scryfall.io/normal/front/b/c/bc883e4e-e5f5-4823-ac2a-9ff8b7772926.jpg?1673301229",
+        "large": "https://cards.scryfall.io/large/front/b/c/bc883e4e-e5f5-4823-ac2a-9ff8b7772926.jpg?1673301229"
+      }
+    },
+    {
+      "card_id": "banisher_priest",
+      "name": "Banisher Priest",
+      "scryfall_id": "0e518f9e-d74d-4a6f-8fde-5e3ec5834e63",
+      "set": "moc",
+      "collector_number": "173",
+      "lang": "en",
+      "released_at": "2023-04-21",
+      "uri": "https://api.scryfall.com/cards/0e518f9e-d74d-4a6f-8fde-5e3ec5834e63",
+      "scryfall_uri": "https://scryfall.com/card/moc/173/banisher-priest?utm_source=api",
+      "type_line": "Creature — Human Cleric",
+      "mana_cost": "{1}{W}{W}",
+      "cmc": 3.0,
+      "oracle_text": "When this creature enters, exile target creature an opponent controls until this creature leaves the battlefield.",
+      "colors": [
+        "W"
+      ],
+      "color_identity": [
+        "W"
+      ],
+      "rarity": "uncommon",
+      "power": "2",
+      "toughness": "2",
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/0/e/0e518f9e-d74d-4a6f-8fde-5e3ec5834e63.jpg?1682208306",
+        "normal": "https://cards.scryfall.io/normal/front/0/e/0e518f9e-d74d-4a6f-8fde-5e3ec5834e63.jpg?1682208306",
+        "large": "https://cards.scryfall.io/large/front/0/e/0e518f9e-d74d-4a6f-8fde-5e3ec5834e63.jpg?1682208306"
+      }
+    },
+    {
+      "card_id": "captain_of_the_watch",
+      "name": "Captain of the Watch",
+      "scryfall_id": "6e201980-e220-44dc-beab-ad13c20332bd",
+      "set": "ddo",
+      "collector_number": "3",
+      "lang": "en",
+      "released_at": "2015-02-27",
+      "uri": "https://api.scryfall.com/cards/6e201980-e220-44dc-beab-ad13c20332bd",
+      "scryfall_uri": "https://scryfall.com/card/ddo/3/captain-of-the-watch?utm_source=api",
+      "type_line": "Creature — Human Soldier",
+      "mana_cost": "{4}{W}{W}",
+      "cmc": 6.0,
+      "oracle_text": "Vigilance (Attacking doesn't cause this creature to tap.)\nOther Soldier creatures you control get +1/+1 and have vigilance.\nWhen this creature enters, create three 1/1 white Soldier creature tokens.",
+      "colors": [
+        "W"
+      ],
+      "color_identity": [
+        "W"
+      ],
+      "rarity": "rare",
+      "power": "3",
+      "toughness": "3",
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/6/e/6e201980-e220-44dc-beab-ad13c20332bd.jpg?1562840239",
+        "normal": "https://cards.scryfall.io/normal/front/6/e/6e201980-e220-44dc-beab-ad13c20332bd.jpg?1562840239",
+        "large": "https://cards.scryfall.io/large/front/6/e/6e201980-e220-44dc-beab-ad13c20332bd.jpg?1562840239"
+      }
+    },
+    {
+      "card_id": "danitha_capashen_paragon",
+      "name": "Danitha Capashen, Paragon",
+      "scryfall_id": "a11f77e4-edb6-43c6-b8ca-d4f62d26d0c0",
+      "set": "cmm",
+      "collector_number": "20",
+      "lang": "en",
+      "released_at": "2023-08-04",
+      "uri": "https://api.scryfall.com/cards/a11f77e4-edb6-43c6-b8ca-d4f62d26d0c0",
+      "scryfall_uri": "https://scryfall.com/card/cmm/20/danitha-capashen-paragon?utm_source=api",
+      "type_line": "Legendary Creature — Human Knight",
+      "mana_cost": "{2}{W}",
+      "cmc": 3.0,
+      "oracle_text": "First strike, vigilance, lifelink\nAura and Equipment spells you cast cost {1} less to cast.",
+      "colors": [
+        "W"
+      ],
+      "color_identity": [
+        "W"
+      ],
+      "rarity": "uncommon",
+      "power": "2",
+      "toughness": "2",
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/a/1/a11f77e4-edb6-43c6-b8ca-d4f62d26d0c0.jpg?1689995626",
+        "normal": "https://cards.scryfall.io/normal/front/a/1/a11f77e4-edb6-43c6-b8ca-d4f62d26d0c0.jpg?1689995626",
+        "large": "https://cards.scryfall.io/large/front/a/1/a11f77e4-edb6-43c6-b8ca-d4f62d26d0c0.jpg?1689995626"
+      }
+    },
+    {
+      "card_id": "forbidding_spirit",
+      "name": "Forbidding Spirit",
+      "scryfall_id": "c17056e7-95c6-4bed-a747-3b40dcda275a",
+      "set": "rna",
+      "collector_number": "9",
+      "lang": "en",
+      "released_at": "2019-01-25",
+      "uri": "https://api.scryfall.com/cards/c17056e7-95c6-4bed-a747-3b40dcda275a",
+      "scryfall_uri": "https://scryfall.com/card/rna/9/forbidding-spirit?utm_source=api",
+      "type_line": "Creature — Spirit Cleric",
+      "mana_cost": "{1}{W}{W}",
+      "cmc": 3.0,
+      "oracle_text": "When this creature enters, until your next turn, creatures can't attack you or planeswalkers you control unless their controller pays {2} for each of those creatures.",
+      "colors": [
+        "W"
+      ],
+      "color_identity": [
+        "W"
+      ],
+      "rarity": "uncommon",
+      "power": "3",
+      "toughness": "3",
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/c/1/c17056e7-95c6-4bed-a747-3b40dcda275a.jpg?1584829884",
+        "normal": "https://cards.scryfall.io/normal/front/c/1/c17056e7-95c6-4bed-a747-3b40dcda275a.jpg?1584829884",
+        "large": "https://cards.scryfall.io/large/front/c/1/c17056e7-95c6-4bed-a747-3b40dcda275a.jpg?1584829884"
+      }
+    },
+    {
+      "card_id": "kitesail_apprentice",
+      "name": "Kitesail Apprentice",
+      "scryfall_id": "88e2315e-41d9-4e46-bee4-c8f92e91e2a9",
+      "set": "wwk",
+      "collector_number": "10",
+      "lang": "en",
+      "released_at": "2010-02-05",
+      "uri": "https://api.scryfall.com/cards/88e2315e-41d9-4e46-bee4-c8f92e91e2a9",
+      "scryfall_uri": "https://scryfall.com/card/wwk/10/kitesail-apprentice?utm_source=api",
+      "type_line": "Creature — Kor Soldier",
+      "mana_cost": "{W}",
+      "cmc": 1.0,
+      "oracle_text": "As long as this creature is equipped, it gets +1/+1 and has flying.",
+      "colors": [
+        "W"
+      ],
+      "color_identity": [
+        "W"
+      ],
+      "rarity": "common",
+      "power": "1",
+      "toughness": "1",
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/8/8/88e2315e-41d9-4e46-bee4-c8f92e91e2a9.jpg?1562291362",
+        "normal": "https://cards.scryfall.io/normal/front/8/8/88e2315e-41d9-4e46-bee4-c8f92e91e2a9.jpg?1562291362",
+        "large": "https://cards.scryfall.io/large/front/8/8/88e2315e-41d9-4e46-bee4-c8f92e91e2a9.jpg?1562291362"
+      }
+    },
+    {
+      "card_id": "kor_duelist",
+      "name": "Kor Duelist",
+      "scryfall_id": "d7cd85ac-e826-4b16-b9ab-864ae2cabed1",
+      "set": "mm2",
+      "collector_number": "22",
+      "lang": "en",
+      "released_at": "2015-05-22",
+      "uri": "https://api.scryfall.com/cards/d7cd85ac-e826-4b16-b9ab-864ae2cabed1",
+      "scryfall_uri": "https://scryfall.com/card/mm2/22/kor-duelist?utm_source=api",
+      "type_line": "Creature — Kor Soldier",
+      "mana_cost": "{W}",
+      "cmc": 1.0,
+      "oracle_text": "As long as this creature is equipped, it has double strike. (It deals both first-strike and regular combat damage.)",
+      "colors": [
+        "W"
+      ],
+      "color_identity": [
+        "W"
+      ],
+      "rarity": "uncommon",
+      "power": "1",
+      "toughness": "1",
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/d/7/d7cd85ac-e826-4b16-b9ab-864ae2cabed1.jpg?1562267949",
+        "normal": "https://cards.scryfall.io/normal/front/d/7/d7cd85ac-e826-4b16-b9ab-864ae2cabed1.jpg?1562267949",
+        "large": "https://cards.scryfall.io/large/front/d/7/d7cd85ac-e826-4b16-b9ab-864ae2cabed1.jpg?1562267949"
+      }
+    },
+    {
+      "card_id": "kor_outfitter",
+      "name": "Kor Outfitter",
+      "scryfall_id": "00006596-1166-4a79-8443-ca9f82e6db4e",
+      "set": "zen",
+      "collector_number": "21",
+      "lang": "en",
+      "released_at": "2009-10-02",
+      "uri": "https://api.scryfall.com/cards/00006596-1166-4a79-8443-ca9f82e6db4e",
+      "scryfall_uri": "https://scryfall.com/card/zen/21/kor-outfitter?utm_source=api",
+      "type_line": "Creature — Kor Soldier",
+      "mana_cost": "{W}{W}",
+      "cmc": 2.0,
+      "oracle_text": "When this creature enters, you may attach target Equipment you control to target creature you control.",
+      "colors": [
+        "W"
+      ],
+      "color_identity": [
+        "W"
+      ],
+      "rarity": "common",
+      "power": "2",
+      "toughness": "2",
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/0/0/00006596-1166-4a79-8443-ca9f82e6db4e.jpg?1562609251",
+        "normal": "https://cards.scryfall.io/normal/front/0/0/00006596-1166-4a79-8443-ca9f82e6db4e.jpg?1562609251",
+        "large": "https://cards.scryfall.io/large/front/0/0/00006596-1166-4a79-8443-ca9f82e6db4e.jpg?1562609251"
+      }
+    },
+    {
+      "card_id": "pilgrim_of_the_ages",
+      "name": "Pilgrim of the Ages",
+      "scryfall_id": "c86714f5-e909-413f-8eb6-99dbea4d1897",
+      "set": "stx",
+      "collector_number": "22",
+      "lang": "en",
+      "released_at": "2021-04-23",
+      "uri": "https://api.scryfall.com/cards/c86714f5-e909-413f-8eb6-99dbea4d1897",
+      "scryfall_uri": "https://scryfall.com/card/stx/22/pilgrim-of-the-ages?utm_source=api",
+      "type_line": "Creature — Spirit",
+      "mana_cost": "{2}{W}",
+      "cmc": 3.0,
+      "oracle_text": "When this creature enters, you may search your library for a basic Plains card, reveal it, put it into your hand, then shuffle.\n{6}: Return this card from your graveyard to your hand.",
+      "colors": [
+        "W"
+      ],
+      "color_identity": [
+        "W"
+      ],
+      "rarity": "common",
+      "power": "2",
+      "toughness": "1",
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/c/8/c86714f5-e909-413f-8eb6-99dbea4d1897.jpg?1624589574",
+        "normal": "https://cards.scryfall.io/normal/front/c/8/c86714f5-e909-413f-8eb6-99dbea4d1897.jpg?1624589574",
+        "large": "https://cards.scryfall.io/large/front/c/8/c86714f5-e909-413f-8eb6-99dbea4d1897.jpg?1624589574"
+      }
+    },
+    {
+      "card_id": "serra_angel",
+      "name": "Serra Angel",
+      "scryfall_id": "3cee9303-9d65-45a2-93d4-ef4aba59141b",
+      "set": "fdn",
+      "collector_number": "147",
+      "lang": "en",
+      "released_at": "2024-11-15",
+      "uri": "https://api.scryfall.com/cards/3cee9303-9d65-45a2-93d4-ef4aba59141b",
+      "scryfall_uri": "https://scryfall.com/card/fdn/147/serra-angel?utm_source=api",
+      "type_line": "Creature — Angel",
+      "mana_cost": "{3}{W}{W}",
+      "cmc": 5.0,
+      "oracle_text": "Flying\nVigilance (Attacking doesn't cause this creature to tap.)",
+      "colors": [
+        "W"
+      ],
+      "color_identity": [
+        "W"
+      ],
+      "rarity": "uncommon",
+      "power": "4",
+      "toughness": "4",
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/3/c/3cee9303-9d65-45a2-93d4-ef4aba59141b.jpg?1730489152",
+        "normal": "https://cards.scryfall.io/normal/front/3/c/3cee9303-9d65-45a2-93d4-ef4aba59141b.jpg?1730489152",
+        "large": "https://cards.scryfall.io/large/front/3/c/3cee9303-9d65-45a2-93d4-ef4aba59141b.jpg?1730489152"
+      }
+    },
+    {
+      "card_id": "howling_golem",
+      "name": "Howling Golem",
+      "scryfall_id": "05b54aaa-93e2-4f8b-8d06-2a848498d1fd",
+      "set": "cmr",
+      "collector_number": "316",
+      "lang": "en",
+      "released_at": "2020-11-20",
+      "uri": "https://api.scryfall.com/cards/05b54aaa-93e2-4f8b-8d06-2a848498d1fd",
+      "scryfall_uri": "https://scryfall.com/card/cmr/316/howling-golem?utm_source=api",
+      "type_line": "Artifact Creature — Golem",
+      "mana_cost": "{3}",
+      "cmc": 3.0,
+      "oracle_text": "Whenever this creature attacks or blocks, each player draws a card.",
+      "colors": [],
+      "color_identity": [],
+      "rarity": "common",
+      "power": "2",
+      "toughness": "3",
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/0/5/05b54aaa-93e2-4f8b-8d06-2a848498d1fd.jpg?1608911481",
+        "normal": "https://cards.scryfall.io/normal/front/0/5/05b54aaa-93e2-4f8b-8d06-2a848498d1fd.jpg?1608911481",
+        "large": "https://cards.scryfall.io/large/front/0/5/05b54aaa-93e2-4f8b-8d06-2a848498d1fd.jpg?1608911481"
+      }
+    },
+    {
+      "card_id": "ancestral_blade",
+      "name": "Ancestral Blade",
+      "scryfall_id": "24705dee-027c-42a2-8505-66c0a34a4a58",
+      "set": "cmm",
+      "collector_number": "12",
+      "lang": "en",
+      "released_at": "2023-08-04",
+      "uri": "https://api.scryfall.com/cards/24705dee-027c-42a2-8505-66c0a34a4a58",
+      "scryfall_uri": "https://scryfall.com/card/cmm/12/ancestral-blade?utm_source=api",
+      "type_line": "Artifact — Equipment",
+      "mana_cost": "{1}{W}",
+      "cmc": 2.0,
+      "oracle_text": "When this Equipment enters, create a 1/1 white Soldier creature token, then attach this Equipment to it.\nEquipped creature gets +1/+1.\nEquip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)",
+      "colors": [
+        "W"
+      ],
+      "color_identity": [
+        "W"
+      ],
+      "rarity": "common",
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/2/4/24705dee-027c-42a2-8505-66c0a34a4a58.jpg?1689995527",
+        "normal": "https://cards.scryfall.io/normal/front/2/4/24705dee-027c-42a2-8505-66c0a34a4a58.jpg?1689995527",
+        "large": "https://cards.scryfall.io/large/front/2/4/24705dee-027c-42a2-8505-66c0a34a4a58.jpg?1689995527"
+      }
+    },
+    {
+      "card_id": "path_to_exile",
+      "name": "Path to Exile",
+      "scryfall_id": "35649ef0-b2fd-429f-be5f-766d5cea5994",
+      "set": "ecc",
+      "collector_number": "65",
+      "lang": "en",
+      "released_at": "2026-01-23",
+      "uri": "https://api.scryfall.com/cards/35649ef0-b2fd-429f-be5f-766d5cea5994",
+      "scryfall_uri": "https://scryfall.com/card/ecc/65/path-to-exile?utm_source=api",
+      "type_line": "Instant",
+      "mana_cost": "{W}",
+      "cmc": 1.0,
+      "oracle_text": "Exile target creature. Its controller may search their library for a basic land card, put that card onto the battlefield tapped, then shuffle.",
+      "colors": [
+        "W"
+      ],
+      "color_identity": [
+        "W"
+      ],
+      "rarity": "uncommon",
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/3/5/35649ef0-b2fd-429f-be5f-766d5cea5994.jpg?1767730335",
+        "normal": "https://cards.scryfall.io/normal/front/3/5/35649ef0-b2fd-429f-be5f-766d5cea5994.jpg?1767730335",
+        "large": "https://cards.scryfall.io/large/front/3/5/35649ef0-b2fd-429f-be5f-766d5cea5994.jpg?1767730335"
+      }
+    },
+    {
+      "card_id": "strength_of_arms",
+      "name": "Strength of Arms",
+      "scryfall_id": "a08fb8ec-6890-48f9-97db-0584a9a77578",
+      "set": "inr",
+      "collector_number": "42",
+      "lang": "en",
+      "released_at": "2025-01-24",
+      "uri": "https://api.scryfall.com/cards/a08fb8ec-6890-48f9-97db-0584a9a77578",
+      "scryfall_uri": "https://scryfall.com/card/inr/42/strength-of-arms?utm_source=api",
+      "type_line": "Instant",
+      "mana_cost": "{W}",
+      "cmc": 1.0,
+      "oracle_text": "Target creature gets +2/+2 until end of turn. If you control an Equipment, create a 1/1 white Human Soldier creature token.",
+      "colors": [
+        "W"
+      ],
+      "color_identity": [
+        "W"
+      ],
+      "rarity": "common",
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/a/0/a08fb8ec-6890-48f9-97db-0584a9a77578.jpg?1736467592",
+        "normal": "https://cards.scryfall.io/normal/front/a/0/a08fb8ec-6890-48f9-97db-0584a9a77578.jpg?1736467592",
+        "large": "https://cards.scryfall.io/large/front/a/0/a08fb8ec-6890-48f9-97db-0584a9a77578.jpg?1736467592"
+      }
+    },
+    {
+      "card_id": "swords_to_plowshares",
+      "name": "Swords to Plowshares",
+      "scryfall_id": "0e7ff4dc-af63-4342-9a44-d059e62bd14c",
+      "set": "eoc",
+      "collector_number": "45",
+      "lang": "en",
+      "released_at": "2025-08-01",
+      "uri": "https://api.scryfall.com/cards/0e7ff4dc-af63-4342-9a44-d059e62bd14c",
+      "scryfall_uri": "https://scryfall.com/card/eoc/45/swords-to-plowshares?utm_source=api",
+      "type_line": "Instant",
+      "mana_cost": "{W}",
+      "cmc": 1.0,
+      "oracle_text": "Exile target creature. Its controller gains life equal to its power.",
+      "colors": [
+        "W"
+      ],
+      "color_identity": [
+        "W"
+      ],
+      "rarity": "uncommon",
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/0/e/0e7ff4dc-af63-4342-9a44-d059e62bd14c.jpg?1752944384",
+        "normal": "https://cards.scryfall.io/normal/front/0/e/0e7ff4dc-af63-4342-9a44-d059e62bd14c.jpg?1752944384",
+        "large": "https://cards.scryfall.io/large/front/0/e/0e7ff4dc-af63-4342-9a44-d059e62bd14c.jpg?1752944384"
+      }
+    },
+    {
+      "card_id": "valorous_stance",
+      "name": "Valorous Stance",
+      "scryfall_id": "04762c85-d25d-4120-adec-8681adcf581a",
+      "set": "inr",
+      "collector_number": "48",
+      "lang": "en",
+      "released_at": "2025-01-24",
+      "uri": "https://api.scryfall.com/cards/04762c85-d25d-4120-adec-8681adcf581a",
+      "scryfall_uri": "https://scryfall.com/card/inr/48/valorous-stance?utm_source=api",
+      "type_line": "Instant",
+      "mana_cost": "{1}{W}",
+      "cmc": 2.0,
+      "oracle_text": "Choose one —\n• Target creature gains indestructible until end of turn. (Damage and effects that say \"destroy\" don't destroy it.)\n• Destroy target creature with toughness 4 or greater.",
+      "colors": [
+        "W"
+      ],
+      "color_identity": [
+        "W"
+      ],
+      "rarity": "uncommon",
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/0/4/04762c85-d25d-4120-adec-8681adcf581a.jpg?1736467629",
+        "normal": "https://cards.scryfall.io/normal/front/0/4/04762c85-d25d-4120-adec-8681adcf581a.jpg?1736467629",
+        "large": "https://cards.scryfall.io/large/front/0/4/04762c85-d25d-4120-adec-8681adcf581a.jpg?1736467629"
+      }
+    },
+    {
+      "card_id": "vow_of_duty",
+      "name": "Vow of Duty",
+      "scryfall_id": "210920ef-917b-4e2c-a5da-1180baa37959",
+      "set": "mkc",
+      "collector_number": "89",
+      "lang": "en",
+      "released_at": "2024-02-09",
+      "uri": "https://api.scryfall.com/cards/210920ef-917b-4e2c-a5da-1180baa37959",
+      "scryfall_uri": "https://scryfall.com/card/mkc/89/vow-of-duty?utm_source=api",
+      "type_line": "Enchantment — Aura",
+      "mana_cost": "{2}{W}",
+      "cmc": 3.0,
+      "oracle_text": "Enchant creature\nEnchanted creature gets +2/+2, has vigilance, and can't attack you or planeswalkers you control.",
+      "colors": [
+        "W"
+      ],
+      "color_identity": [
+        "W"
+      ],
+      "rarity": "uncommon",
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/2/1/210920ef-917b-4e2c-a5da-1180baa37959.jpg?1706240651",
+        "normal": "https://cards.scryfall.io/normal/front/2/1/210920ef-917b-4e2c-a5da-1180baa37959.jpg?1706240651",
+        "large": "https://cards.scryfall.io/large/front/2/1/210920ef-917b-4e2c-a5da-1180baa37959.jpg?1706240651"
+      }
+    },
+    {
+      "card_id": "argentum_armor",
+      "name": "Argentum Armor",
+      "scryfall_id": "fb1b7468-85f9-472e-9f7c-b268f84aea1c",
+      "set": "afc",
+      "collector_number": "198",
+      "lang": "en",
+      "released_at": "2021-07-23",
+      "uri": "https://api.scryfall.com/cards/fb1b7468-85f9-472e-9f7c-b268f84aea1c",
+      "scryfall_uri": "https://scryfall.com/card/afc/198/argentum-armor?utm_source=api",
+      "type_line": "Artifact — Equipment",
+      "mana_cost": "{6}",
+      "cmc": 6.0,
+      "oracle_text": "Equipped creature gets +6/+6.\nWhenever equipped creature attacks, destroy target permanent.\nEquip {6}",
+      "colors": [],
+      "color_identity": [],
+      "rarity": "rare",
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/f/b/fb1b7468-85f9-472e-9f7c-b268f84aea1c.jpg?1631588793",
+        "normal": "https://cards.scryfall.io/normal/front/f/b/fb1b7468-85f9-472e-9f7c-b268f84aea1c.jpg?1631588793",
+        "large": "https://cards.scryfall.io/large/front/f/b/fb1b7468-85f9-472e-9f7c-b268f84aea1c.jpg?1631588793"
+      }
+    },
+    {
+      "card_id": "colossus_hammer",
+      "name": "Colossus Hammer",
+      "scryfall_id": "897a134e-7e61-4fe1-bbae-23ef1fe5c0cf",
+      "set": "afc",
+      "collector_number": "202",
+      "lang": "en",
+      "released_at": "2021-07-23",
+      "uri": "https://api.scryfall.com/cards/897a134e-7e61-4fe1-bbae-23ef1fe5c0cf",
+      "scryfall_uri": "https://scryfall.com/card/afc/202/colossus-hammer?utm_source=api",
+      "type_line": "Artifact — Equipment",
+      "mana_cost": "{1}",
+      "cmc": 1.0,
+      "oracle_text": "Equipped creature gets +10/+10 and loses flying.\nEquip {8} ({8}: Attach to target creature you control. Equip only as a sorcery.)",
+      "colors": [],
+      "color_identity": [],
+      "rarity": "uncommon",
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/8/9/897a134e-7e61-4fe1-bbae-23ef1fe5c0cf.jpg?1631588878",
+        "normal": "https://cards.scryfall.io/normal/front/8/9/897a134e-7e61-4fe1-bbae-23ef1fe5c0cf.jpg?1631588878",
+        "large": "https://cards.scryfall.io/large/front/8/9/897a134e-7e61-4fe1-bbae-23ef1fe5c0cf.jpg?1631588878"
+      }
+    },
+    {
+      "card_id": "greatsword",
+      "name": "Greatsword",
+      "scryfall_id": "63b4041d-7c95-4cb9-a18b-6568db05942b",
+      "set": "m12",
+      "collector_number": "209",
+      "lang": "en",
+      "released_at": "2011-07-15",
+      "uri": "https://api.scryfall.com/cards/63b4041d-7c95-4cb9-a18b-6568db05942b",
+      "scryfall_uri": "https://scryfall.com/card/m12/209/greatsword?utm_source=api",
+      "type_line": "Artifact — Equipment",
+      "mana_cost": "{3}",
+      "cmc": 3.0,
+      "oracle_text": "Equipped creature gets +3/+0.\nEquip {3} ({3}: Attach to target creature you control. Equip only as a sorcery.)",
+      "colors": [],
+      "color_identity": [],
+      "rarity": "uncommon",
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/6/3/63b4041d-7c95-4cb9-a18b-6568db05942b.jpg?1562644915",
+        "normal": "https://cards.scryfall.io/normal/front/6/3/63b4041d-7c95-4cb9-a18b-6568db05942b.jpg?1562644915",
+        "large": "https://cards.scryfall.io/large/front/6/3/63b4041d-7c95-4cb9-a18b-6568db05942b.jpg?1562644915"
+      }
+    },
+    {
+      "card_id": "moonsilver_spear",
+      "name": "Moonsilver Spear",
+      "scryfall_id": "a4ace878-6d15-4276-9bfb-2f23667c6d7e",
+      "set": "afc",
+      "collector_number": "212",
+      "lang": "en",
+      "released_at": "2021-07-23",
+      "uri": "https://api.scryfall.com/cards/a4ace878-6d15-4276-9bfb-2f23667c6d7e",
+      "scryfall_uri": "https://scryfall.com/card/afc/212/moonsilver-spear?utm_source=api",
+      "type_line": "Artifact — Equipment",
+      "mana_cost": "{4}",
+      "cmc": 4.0,
+      "oracle_text": "Equipped creature has first strike.\nWhenever equipped creature attacks, create a 4/4 white Angel creature token with flying.\nEquip {4}",
+      "colors": [],
+      "color_identity": [],
+      "rarity": "rare",
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/a/4/a4ace878-6d15-4276-9bfb-2f23667c6d7e.jpg?1631589097",
+        "normal": "https://cards.scryfall.io/normal/front/a/4/a4ace878-6d15-4276-9bfb-2f23667c6d7e.jpg?1631589097",
+        "large": "https://cards.scryfall.io/large/front/a/4/a4ace878-6d15-4276-9bfb-2f23667c6d7e.jpg?1631589097"
+      }
+    },
+    {
+      "card_id": "ring_of_thune",
+      "name": "Ring of Thune",
+      "scryfall_id": "fda91fbd-bf5b-46c4-bd96-037b507f3daa",
+      "set": "cmr",
+      "collector_number": "468",
+      "lang": "en",
+      "released_at": "2020-11-20",
+      "uri": "https://api.scryfall.com/cards/fda91fbd-bf5b-46c4-bd96-037b507f3daa",
+      "scryfall_uri": "https://scryfall.com/card/cmr/468/ring-of-thune?utm_source=api",
+      "type_line": "Artifact — Equipment",
+      "mana_cost": "{2}",
+      "cmc": 2.0,
+      "oracle_text": "Equipped creature has vigilance. (Attacking doesn't cause it to tap.)\nAt the beginning of your upkeep, put a +1/+1 counter on equipped creature if it's white.\nEquip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)",
+      "colors": [],
+      "color_identity": [],
+      "rarity": "uncommon",
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/f/d/fda91fbd-bf5b-46c4-bd96-037b507f3daa.jpg?1608917859",
+        "normal": "https://cards.scryfall.io/normal/front/f/d/fda91fbd-bf5b-46c4-bd96-037b507f3daa.jpg?1608917859",
+        "large": "https://cards.scryfall.io/large/front/f/d/fda91fbd-bf5b-46c4-bd96-037b507f3daa.jpg?1608917859"
+      }
+    },
+    {
+      "card_id": "sword_of_vengeance",
+      "name": "Sword of Vengeance",
+      "scryfall_id": "f21b5fc1-7611-44ac-ad8d-1f0c6d4fc9a3",
+      "set": "blb",
+      "collector_number": "395",
+      "lang": "en",
+      "released_at": "2024-08-02",
+      "uri": "https://api.scryfall.com/cards/f21b5fc1-7611-44ac-ad8d-1f0c6d4fc9a3",
+      "scryfall_uri": "https://scryfall.com/card/blb/395/sword-of-vengeance?utm_source=api",
+      "type_line": "Artifact — Equipment",
+      "mana_cost": "{3}",
+      "cmc": 3.0,
+      "oracle_text": "Equipped creature gets +2/+0 and has first strike, vigilance, trample, and haste.\nEquip {3}",
+      "colors": [],
+      "color_identity": [],
+      "rarity": "rare",
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/f/2/f21b5fc1-7611-44ac-ad8d-1f0c6d4fc9a3.jpg?1721428115",
+        "normal": "https://cards.scryfall.io/normal/front/f/2/f21b5fc1-7611-44ac-ad8d-1f0c6d4fc9a3.jpg?1721428115",
+        "large": "https://cards.scryfall.io/large/front/f/2/f21b5fc1-7611-44ac-ad8d-1f0c6d4fc9a3.jpg?1721428115"
+      }
+    },
+    {
+      "card_id": "trusty_machete",
+      "name": "Trusty Machete",
+      "scryfall_id": "86c9838e-aa72-49fc-bae2-f880bcbc9313",
+      "set": "zen",
+      "collector_number": "209",
+      "lang": "en",
+      "released_at": "2009-10-02",
+      "uri": "https://api.scryfall.com/cards/86c9838e-aa72-49fc-bae2-f880bcbc9313",
+      "scryfall_uri": "https://scryfall.com/card/zen/209/trusty-machete?utm_source=api",
+      "type_line": "Artifact — Equipment",
+      "mana_cost": "{1}",
+      "cmc": 1.0,
+      "oracle_text": "Equipped creature gets +2/+1.\nEquip {2}",
+      "colors": [],
+      "color_identity": [],
+      "rarity": "uncommon",
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/8/6/86c9838e-aa72-49fc-bae2-f880bcbc9313.jpg?1562614038",
+        "normal": "https://cards.scryfall.io/normal/front/8/6/86c9838e-aa72-49fc-bae2-f880bcbc9313.jpg?1562614038",
+        "large": "https://cards.scryfall.io/large/front/8/6/86c9838e-aa72-49fc-bae2-f880bcbc9313.jpg?1562614038"
+      }
+    },
+    {
+      "card_id": "diluvian_primordial",
+      "name": "Diluvian Primordial",
+      "scryfall_id": "eb14cd77-d37e-4849-816f-cd36e2a37765",
+      "set": "otc",
+      "collector_number": "96",
+      "lang": "en",
+      "released_at": "2024-04-19",
+      "uri": "https://api.scryfall.com/cards/eb14cd77-d37e-4849-816f-cd36e2a37765",
+      "scryfall_uri": "https://scryfall.com/card/otc/96/diluvian-primordial?utm_source=api",
+      "type_line": "Creature — Avatar",
+      "mana_cost": "{5}{U}{U}",
+      "cmc": 7.0,
+      "oracle_text": "Flying\nWhen this creature enters, for each opponent, you may cast up to one target instant or sorcery card from that player's graveyard without paying its mana cost. If a spell cast this way would be put into a graveyard, exile it instead.",
+      "colors": [
+        "U"
+      ],
+      "color_identity": [
+        "U"
+      ],
+      "rarity": "rare",
+      "power": "5",
+      "toughness": "5",
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/e/b/eb14cd77-d37e-4849-816f-cd36e2a37765.jpg?1712354140",
+        "normal": "https://cards.scryfall.io/normal/front/e/b/eb14cd77-d37e-4849-816f-cd36e2a37765.jpg?1712354140",
+        "large": "https://cards.scryfall.io/large/front/e/b/eb14cd77-d37e-4849-816f-cd36e2a37765.jpg?1712354140"
+      }
+    },
+    {
+      "card_id": "maeve_insidious_singer",
+      "name": "Maeve, Insidious Singer",
+      "scryfall_id": "2743136b-3610-4c43-8ed7-a00b1f58a874",
+      "set": "gn3",
+      "collector_number": "2",
+      "lang": "en",
+      "released_at": "2022-10-14",
+      "uri": "https://api.scryfall.com/cards/2743136b-3610-4c43-8ed7-a00b1f58a874",
+      "scryfall_uri": "https://scryfall.com/card/gn3/2/maeve-insidious-singer?utm_source=api",
+      "type_line": "Legendary Creature — Siren",
+      "mana_cost": "{2}{U}{U}",
+      "cmc": 4.0,
+      "oracle_text": "{2}{U}: Goad target creature. Whenever that creature attacks one of your opponents this turn, you draw a card. (A goaded creature attacks each combat if able and attacks a player other than you if able, until your next turn.)",
+      "colors": [
+        "U"
+      ],
+      "color_identity": [
+        "U"
+      ],
+      "rarity": "mythic",
+      "power": "3",
+      "toughness": "4",
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/2/7/2743136b-3610-4c43-8ed7-a00b1f58a874.jpg?1673301238",
+        "normal": "https://cards.scryfall.io/normal/front/2/7/2743136b-3610-4c43-8ed7-a00b1f58a874.jpg?1673301238",
+        "large": "https://cards.scryfall.io/large/front/2/7/2743136b-3610-4c43-8ed7-a00b1f58a874.jpg?1673301238"
+      }
+    },
+    {
+      "card_id": "angler_drake",
+      "name": "Angler Drake",
+      "scryfall_id": "d14c753e-c5bf-4c34-b408-ac367b6ca6ab",
+      "set": "akh",
+      "collector_number": "41",
+      "lang": "en",
+      "released_at": "2017-04-28",
+      "uri": "https://api.scryfall.com/cards/d14c753e-c5bf-4c34-b408-ac367b6ca6ab",
+      "scryfall_uri": "https://scryfall.com/card/akh/41/angler-drake?utm_source=api",
+      "type_line": "Creature — Drake",
+      "mana_cost": "{4}{U}{U}",
+      "cmc": 6.0,
+      "oracle_text": "Flying\nWhen this creature enters, you may return target creature to its owner's hand.",
+      "colors": [
+        "U"
+      ],
+      "color_identity": [
+        "U"
+      ],
+      "rarity": "uncommon",
+      "power": "4",
+      "toughness": "4",
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/d/1/d14c753e-c5bf-4c34-b408-ac367b6ca6ab.jpg?1543674875",
+        "normal": "https://cards.scryfall.io/normal/front/d/1/d14c753e-c5bf-4c34-b408-ac367b6ca6ab.jpg?1543674875",
+        "large": "https://cards.scryfall.io/large/front/d/1/d14c753e-c5bf-4c34-b408-ac367b6ca6ab.jpg?1543674875"
+      }
+    },
+    {
+      "card_id": "angler_turtle",
+      "name": "Angler Turtle",
+      "scryfall_id": "9c8d57fc-9695-45df-8b88-0048330608bd",
+      "set": "clb",
+      "collector_number": "713",
+      "lang": "en",
+      "released_at": "2022-06-10",
+      "uri": "https://api.scryfall.com/cards/9c8d57fc-9695-45df-8b88-0048330608bd",
+      "scryfall_uri": "https://scryfall.com/card/clb/713/angler-turtle?utm_source=api",
+      "type_line": "Creature — Turtle",
+      "mana_cost": "{5}{U}{U}",
+      "cmc": 7.0,
+      "oracle_text": "Hexproof\nCreatures your opponents control attack each combat if able.",
+      "colors": [
+        "U"
+      ],
+      "color_identity": [
+        "U"
+      ],
+      "rarity": "rare",
+      "power": "5",
+      "toughness": "7",
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/9/c/9c8d57fc-9695-45df-8b88-0048330608bd.jpg?1674141268",
+        "normal": "https://cards.scryfall.io/normal/front/9/c/9c8d57fc-9695-45df-8b88-0048330608bd.jpg?1674141268",
+        "large": "https://cards.scryfall.io/large/front/9/c/9c8d57fc-9695-45df-8b88-0048330608bd.jpg?1674141268"
+      }
+    },
+    {
+      "card_id": "brineborn_cutthroat",
+      "name": "Brineborn Cutthroat",
+      "scryfall_id": "acf7aafb-931f-49e5-8691-eab8cb34b05e",
+      "set": "fdn",
+      "collector_number": "152",
+      "lang": "en",
+      "released_at": "2024-11-15",
+      "uri": "https://api.scryfall.com/cards/acf7aafb-931f-49e5-8691-eab8cb34b05e",
+      "scryfall_uri": "https://scryfall.com/card/fdn/152/brineborn-cutthroat?utm_source=api",
+      "type_line": "Creature — Merfolk Pirate",
+      "mana_cost": "{1}{U}",
+      "cmc": 2.0,
+      "oracle_text": "Flash (You may cast this spell any time you could cast an instant.)\nWhenever you cast a spell during an opponent's turn, put a +1/+1 counter on this creature.",
+      "colors": [
+        "U"
+      ],
+      "color_identity": [
+        "U"
+      ],
+      "rarity": "uncommon",
+      "power": "2",
+      "toughness": "1",
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/a/c/acf7aafb-931f-49e5-8691-eab8cb34b05e.jpg?1730489171",
+        "normal": "https://cards.scryfall.io/normal/front/a/c/acf7aafb-931f-49e5-8691-eab8cb34b05e.jpg?1730489171",
+        "large": "https://cards.scryfall.io/large/front/a/c/acf7aafb-931f-49e5-8691-eab8cb34b05e.jpg?1730489171"
+      }
+    },
+    {
+      "card_id": "fog_bank",
+      "name": "Fog Bank",
+      "scryfall_id": "18748b1d-4161-482c-a726-8762b4c1819c",
+      "set": "fdn",
+      "collector_number": "591",
+      "lang": "en",
+      "released_at": "2024-11-15",
+      "uri": "https://api.scryfall.com/cards/18748b1d-4161-482c-a726-8762b4c1819c",
+      "scryfall_uri": "https://scryfall.com/card/fdn/591/fog-bank?utm_source=api",
+      "type_line": "Creature — Wall",
+      "mana_cost": "{1}{U}",
+      "cmc": 2.0,
+      "oracle_text": "Defender (This creature can't attack.)\nFlying\nPrevent all combat damage that would be dealt to and dealt by this creature.",
+      "colors": [
+        "U"
+      ],
+      "color_identity": [
+        "U"
+      ],
+      "rarity": "uncommon",
+      "power": "0",
+      "toughness": "2",
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/1/8/18748b1d-4161-482c-a726-8762b4c1819c.jpg?1730490842",
+        "normal": "https://cards.scryfall.io/normal/front/1/8/18748b1d-4161-482c-a726-8762b4c1819c.jpg?1730490842",
+        "large": "https://cards.scryfall.io/large/front/1/8/18748b1d-4161-482c-a726-8762b4c1819c.jpg?1730490842"
+      }
+    },
+    {
+      "card_id": "illusory_ambusher",
+      "name": "Illusory Ambusher",
+      "scryfall_id": "50a68135-b7e1-454e-8891-11f00cb79cd2",
+      "set": "c20",
+      "collector_number": "113",
+      "lang": "en",
+      "released_at": "2020-04-17",
+      "uri": "https://api.scryfall.com/cards/50a68135-b7e1-454e-8891-11f00cb79cd2",
+      "scryfall_uri": "https://scryfall.com/card/c20/113/illusory-ambusher?utm_source=api",
+      "type_line": "Creature — Cat Illusion",
+      "mana_cost": "{4}{U}",
+      "cmc": 5.0,
+      "oracle_text": "Flash (You may cast this spell any time you could cast an instant.)\nWhenever this creature is dealt damage, draw that many cards.",
+      "colors": [
+        "U"
+      ],
+      "color_identity": [
+        "U"
+      ],
+      "rarity": "uncommon",
+      "power": "4",
+      "toughness": "1",
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/5/0/50a68135-b7e1-454e-8891-11f00cb79cd2.jpg?1591320259",
+        "normal": "https://cards.scryfall.io/normal/front/5/0/50a68135-b7e1-454e-8891-11f00cb79cd2.jpg?1591320259",
+        "large": "https://cards.scryfall.io/large/front/5/0/50a68135-b7e1-454e-8891-11f00cb79cd2.jpg?1591320259"
+      }
+    },
+    {
+      "card_id": "jeering_homunculus",
+      "name": "Jeering Homunculus",
+      "scryfall_id": "db7c1643-7c6a-422a-9440-2b0dc33b1011",
+      "set": "clu",
+      "collector_number": "88",
+      "lang": "en",
+      "released_at": "2024-02-23",
+      "uri": "https://api.scryfall.com/cards/db7c1643-7c6a-422a-9440-2b0dc33b1011",
+      "scryfall_uri": "https://scryfall.com/card/clu/88/jeering-homunculus?utm_source=api",
+      "type_line": "Creature — Homunculus",
+      "mana_cost": "{1}{U}",
+      "cmc": 2.0,
+      "oracle_text": "When this creature enters, you may goad target creature. (Until your next turn, that creature attacks each combat if able and attacks a player other than you if able.)",
+      "colors": [
+        "U"
+      ],
+      "color_identity": [
+        "U"
+      ],
+      "rarity": "common",
+      "power": "0",
+      "toughness": "4",
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/d/b/db7c1643-7c6a-422a-9440-2b0dc33b1011.jpg?1706239808",
+        "normal": "https://cards.scryfall.io/normal/front/d/b/db7c1643-7c6a-422a-9440-2b0dc33b1011.jpg?1706239808",
+        "large": "https://cards.scryfall.io/large/front/d/b/db7c1643-7c6a-422a-9440-2b0dc33b1011.jpg?1706239808"
+      }
+    },
+    {
+      "card_id": "murmuring_mystic",
+      "name": "Murmuring Mystic",
+      "scryfall_id": "9e68dcc2-bba4-4efa-97bb-3ed892037595",
+      "set": "otc",
+      "collector_number": "102",
+      "lang": "en",
+      "released_at": "2024-04-19",
+      "uri": "https://api.scryfall.com/cards/9e68dcc2-bba4-4efa-97bb-3ed892037595",
+      "scryfall_uri": "https://scryfall.com/card/otc/102/murmuring-mystic?utm_source=api",
+      "type_line": "Creature — Human Wizard",
+      "mana_cost": "{3}{U}",
+      "cmc": 4.0,
+      "oracle_text": "Whenever you cast an instant or sorcery spell, create a 1/1 blue Bird Illusion creature token with flying.",
+      "colors": [
+        "U"
+      ],
+      "color_identity": [
+        "U"
+      ],
+      "rarity": "common",
+      "power": "1",
+      "toughness": "5",
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/9/e/9e68dcc2-bba4-4efa-97bb-3ed892037595.jpg?1712592825",
+        "normal": "https://cards.scryfall.io/normal/front/9/e/9e68dcc2-bba4-4efa-97bb-3ed892037595.jpg?1712592825",
+        "large": "https://cards.scryfall.io/large/front/9/e/9e68dcc2-bba4-4efa-97bb-3ed892037595.jpg?1712592825"
+      }
+    },
+    {
+      "card_id": "sea_gate_oracle",
+      "name": "Sea Gate Oracle",
+      "scryfall_id": "498743ce-0ca5-488a-ae5e-d348b274bf3b",
+      "set": "khc",
+      "collector_number": "43",
+      "lang": "en",
+      "released_at": "2021-02-05",
+      "uri": "https://api.scryfall.com/cards/498743ce-0ca5-488a-ae5e-d348b274bf3b",
+      "scryfall_uri": "https://scryfall.com/card/khc/43/sea-gate-oracle?utm_source=api",
+      "type_line": "Creature — Human Wizard",
+      "mana_cost": "{2}{U}",
+      "cmc": 3.0,
+      "oracle_text": "When this creature enters, look at the top two cards of your library. Put one of them into your hand and the other on the bottom of your library.",
+      "colors": [
+        "U"
+      ],
+      "color_identity": [
+        "U"
+      ],
+      "rarity": "common",
+      "power": "1",
+      "toughness": "3",
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/4/9/498743ce-0ca5-488a-ae5e-d348b274bf3b.jpg?1631234480",
+        "normal": "https://cards.scryfall.io/normal/front/4/9/498743ce-0ca5-488a-ae5e-d348b274bf3b.jpg?1631234480",
+        "large": "https://cards.scryfall.io/large/front/4/9/498743ce-0ca5-488a-ae5e-d348b274bf3b.jpg?1631234480"
+      }
+    },
+    {
+      "card_id": "counterspell",
+      "name": "Counterspell",
+      "scryfall_id": "4f616706-ec97-4923-bb1e-11a69fbaa1f8",
+      "set": "dsc",
+      "collector_number": "114",
+      "lang": "en",
+      "released_at": "2024-09-27",
+      "uri": "https://api.scryfall.com/cards/4f616706-ec97-4923-bb1e-11a69fbaa1f8",
+      "scryfall_uri": "https://scryfall.com/card/dsc/114/counterspell?utm_source=api",
+      "type_line": "Instant",
+      "mana_cost": "{U}{U}",
+      "cmc": 2.0,
+      "oracle_text": "Counter target spell.",
+      "colors": [
+        "U"
+      ],
+      "color_identity": [
+        "U"
+      ],
+      "rarity": "uncommon",
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/4/f/4f616706-ec97-4923-bb1e-11a69fbaa1f8.jpg?1751282477",
+        "normal": "https://cards.scryfall.io/normal/front/4/f/4f616706-ec97-4923-bb1e-11a69fbaa1f8.jpg?1751282477",
+        "large": "https://cards.scryfall.io/large/front/4/f/4f616706-ec97-4923-bb1e-11a69fbaa1f8.jpg?1751282477"
+      }
+    },
+    {
+      "card_id": "fact_or_fiction",
+      "name": "Fact or Fiction",
+      "scryfall_id": "04588d2f-9e90-4f83-b85e-67e4bc222a62",
+      "set": "cmm",
+      "collector_number": "91",
+      "lang": "en",
+      "released_at": "2023-08-04",
+      "uri": "https://api.scryfall.com/cards/04588d2f-9e90-4f83-b85e-67e4bc222a62",
+      "scryfall_uri": "https://scryfall.com/card/cmm/91/fact-or-fiction?utm_source=api",
+      "type_line": "Instant",
+      "mana_cost": "{3}{U}",
+      "cmc": 4.0,
+      "oracle_text": "Reveal the top five cards of your library. An opponent separates those cards into two piles. Put one pile into your hand and the other into your graveyard.",
+      "colors": [
+        "U"
+      ],
+      "color_identity": [
+        "U"
+      ],
+      "rarity": "uncommon",
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/0/4/04588d2f-9e90-4f83-b85e-67e4bc222a62.jpg?1689996343",
+        "normal": "https://cards.scryfall.io/normal/front/0/4/04588d2f-9e90-4f83-b85e-67e4bc222a62.jpg?1689996343",
+        "large": "https://cards.scryfall.io/large/front/0/4/04588d2f-9e90-4f83-b85e-67e4bc222a62.jpg?1689996343"
+      }
+    },
+    {
+      "card_id": "impulse",
+      "name": "Impulse",
+      "scryfall_id": "3ec50625-5e14-4fd0-9a96-86f195342695",
+      "set": "dmr",
+      "collector_number": "56",
+      "lang": "en",
+      "released_at": "2023-01-13",
+      "uri": "https://api.scryfall.com/cards/3ec50625-5e14-4fd0-9a96-86f195342695",
+      "scryfall_uri": "https://scryfall.com/card/dmr/56/impulse?utm_source=api",
+      "type_line": "Instant",
+      "mana_cost": "{1}{U}",
+      "cmc": 2.0,
+      "oracle_text": "Look at the top four cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order.",
+      "colors": [
+        "U"
+      ],
+      "color_identity": [
+        "U"
+      ],
+      "rarity": "common",
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/3/e/3ec50625-5e14-4fd0-9a96-86f195342695.jpg?1675199337",
+        "normal": "https://cards.scryfall.io/normal/front/3/e/3ec50625-5e14-4fd0-9a96-86f195342695.jpg?1675199337",
+        "large": "https://cards.scryfall.io/large/front/3/e/3ec50625-5e14-4fd0-9a96-86f195342695.jpg?1675199337"
+      }
+    },
+    {
+      "card_id": "plea_for_power",
+      "name": "Plea for Power",
+      "scryfall_id": "9f810725-4da0-460f-b50e-a7ff05aa4c00",
+      "set": "vma",
+      "collector_number": "87",
+      "lang": "en",
+      "released_at": "2014-06-16",
+      "uri": "https://api.scryfall.com/cards/9f810725-4da0-460f-b50e-a7ff05aa4c00",
+      "scryfall_uri": "https://scryfall.com/card/vma/87/plea-for-power?utm_source=api",
+      "type_line": "Sorcery",
+      "mana_cost": "{3}{U}",
+      "cmc": 4.0,
+      "oracle_text": "Will of the council — Starting with you, each player votes for time or knowledge. If time gets more votes, take an extra turn after this one. If knowledge gets more votes or the vote is tied, draw three cards.",
+      "colors": [
+        "U"
+      ],
+      "color_identity": [
+        "U"
+      ],
+      "rarity": "rare",
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/9/f/9f810725-4da0-460f-b50e-a7ff05aa4c00.jpg?1562927177",
+        "normal": "https://cards.scryfall.io/normal/front/9/f/9f810725-4da0-460f-b50e-a7ff05aa4c00.jpg?1562927177",
+        "large": "https://cards.scryfall.io/large/front/9/f/9f810725-4da0-460f-b50e-a7ff05aa4c00.jpg?1562927177"
+      }
+    },
+    {
+      "card_id": "precognitive_perception",
+      "name": "Precognitive Perception",
+      "scryfall_id": "724fd1ea-05ad-497c-9989-825ada48e684",
+      "set": "rna",
+      "collector_number": "45",
+      "lang": "en",
+      "released_at": "2019-01-25",
+      "uri": "https://api.scryfall.com/cards/724fd1ea-05ad-497c-9989-825ada48e684",
+      "scryfall_uri": "https://scryfall.com/card/rna/45/precognitive-perception?utm_source=api",
+      "type_line": "Instant",
+      "mana_cost": "{3}{U}{U}",
+      "cmc": 5.0,
+      "oracle_text": "Draw three cards.\nAddendum — If you cast this spell during your main phase, instead scry 3, then draw three cards.",
+      "colors": [
+        "U"
+      ],
+      "color_identity": [
+        "U"
+      ],
+      "rarity": "rare",
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/7/2/724fd1ea-05ad-497c-9989-825ada48e684.jpg?1584830268",
+        "normal": "https://cards.scryfall.io/normal/front/7/2/724fd1ea-05ad-497c-9989-825ada48e684.jpg?1584830268",
+        "large": "https://cards.scryfall.io/large/front/7/2/724fd1ea-05ad-497c-9989-825ada48e684.jpg?1584830268"
+      }
+    },
+    {
+      "card_id": "pull_from_tomorrow",
+      "name": "Pull from Tomorrow",
+      "scryfall_id": "12e1fecc-c9e4-401f-ac24-11822276c911",
+      "set": "eoc",
+      "collector_number": "76",
+      "lang": "en",
+      "released_at": "2025-08-01",
+      "uri": "https://api.scryfall.com/cards/12e1fecc-c9e4-401f-ac24-11822276c911",
+      "scryfall_uri": "https://scryfall.com/card/eoc/76/pull-from-tomorrow?utm_source=api",
+      "type_line": "Instant",
+      "mana_cost": "{X}{U}{U}",
+      "cmc": 2.0,
+      "oracle_text": "Draw X cards, then discard a card.",
+      "colors": [
+        "U"
+      ],
+      "color_identity": [
+        "U"
+      ],
+      "rarity": "rare",
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/1/2/12e1fecc-c9e4-401f-ac24-11822276c911.jpg?1752944629",
+        "normal": "https://cards.scryfall.io/normal/front/1/2/12e1fecc-c9e4-401f-ac24-11822276c911.jpg?1752944629",
+        "large": "https://cards.scryfall.io/large/front/1/2/12e1fecc-c9e4-401f-ac24-11822276c911.jpg?1752944629"
+      }
+    },
+    {
+      "card_id": "repulse",
+      "name": "Repulse",
+      "scryfall_id": "4dc7777b-6e9e-4889-91da-fb5283340fa1",
+      "set": "cn2",
+      "collector_number": "119",
+      "lang": "en",
+      "released_at": "2016-08-26",
+      "uri": "https://api.scryfall.com/cards/4dc7777b-6e9e-4889-91da-fb5283340fa1",
+      "scryfall_uri": "https://scryfall.com/card/cn2/119/repulse?utm_source=api",
+      "type_line": "Instant",
+      "mana_cost": "{2}{U}",
+      "cmc": 3.0,
+      "oracle_text": "Return target creature to its owner's hand.\nDraw a card.",
+      "colors": [
+        "U"
+      ],
+      "color_identity": [
+        "U"
+      ],
+      "rarity": "common",
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/4/d/4dc7777b-6e9e-4889-91da-fb5283340fa1.jpg?1576382508",
+        "normal": "https://cards.scryfall.io/normal/front/4/d/4dc7777b-6e9e-4889-91da-fb5283340fa1.jpg?1576382508",
+        "large": "https://cards.scryfall.io/large/front/4/d/4dc7777b-6e9e-4889-91da-fb5283340fa1.jpg?1576382508"
+      }
+    },
+    {
+      "card_id": "run_away_together",
+      "name": "Run Away Together",
+      "scryfall_id": "35c56aff-1f0f-464a-b705-d67803e3d060",
+      "set": "ecl",
+      "collector_number": "67",
+      "lang": "en",
+      "released_at": "2026-01-23",
+      "uri": "https://api.scryfall.com/cards/35c56aff-1f0f-464a-b705-d67803e3d060",
+      "scryfall_uri": "https://scryfall.com/card/ecl/67/run-away-together?utm_source=api",
+      "type_line": "Instant",
+      "mana_cost": "{1}{U}",
+      "cmc": 2.0,
+      "oracle_text": "Choose two target creatures controlled by different players. Return those creatures to their owners' hands.",
+      "colors": [
+        "U"
+      ],
+      "color_identity": [
+        "U"
+      ],
+      "rarity": "common",
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/3/5/35c56aff-1f0f-464a-b705-d67803e3d060.jpg?1767732563",
+        "normal": "https://cards.scryfall.io/normal/front/3/5/35c56aff-1f0f-464a-b705-d67803e3d060.jpg?1767732563",
+        "large": "https://cards.scryfall.io/large/front/3/5/35c56aff-1f0f-464a-b705-d67803e3d060.jpg?1767732563"
+      }
+    },
+    {
+      "card_id": "split_decision",
+      "name": "Split Decision",
+      "scryfall_id": "83ed7ebe-48be-4e6e-a293-b81484f85142",
+      "set": "cns",
+      "collector_number": "25",
+      "lang": "en",
+      "released_at": "2014-06-06",
+      "uri": "https://api.scryfall.com/cards/83ed7ebe-48be-4e6e-a293-b81484f85142",
+      "scryfall_uri": "https://scryfall.com/card/cns/25/split-decision?utm_source=api",
+      "type_line": "Instant",
+      "mana_cost": "{1}{U}",
+      "cmc": 2.0,
+      "oracle_text": "Will of the council — Choose target instant or sorcery spell. Starting with you, each player votes for denial or duplication. If denial gets more votes, counter the spell. If duplication gets more votes or the vote is tied, copy the spell. You may choose new targets for the copy.",
+      "colors": [
+        "U"
+      ],
+      "color_identity": [
+        "U"
+      ],
+      "rarity": "uncommon",
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/8/3/83ed7ebe-48be-4e6e-a293-b81484f85142.jpg?1562865914",
+        "normal": "https://cards.scryfall.io/normal/front/8/3/83ed7ebe-48be-4e6e-a293-b81484f85142.jpg?1562865914",
+        "large": "https://cards.scryfall.io/large/front/8/3/83ed7ebe-48be-4e6e-a293-b81484f85142.jpg?1562865914"
+      }
+    },
+    {
+      "card_id": "supreme_will",
+      "name": "Supreme Will",
+      "scryfall_id": "fcf7fd8a-adc3-4099-8e30-08375f263446",
+      "set": "cmr",
+      "collector_number": "102",
+      "lang": "en",
+      "released_at": "2020-11-20",
+      "uri": "https://api.scryfall.com/cards/fcf7fd8a-adc3-4099-8e30-08375f263446",
+      "scryfall_uri": "https://scryfall.com/card/cmr/102/supreme-will?utm_source=api",
+      "type_line": "Instant",
+      "mana_cost": "{2}{U}",
+      "cmc": 3.0,
+      "oracle_text": "Choose one —\n• Counter target spell unless its controller pays {3}.\n• Look at the top four cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order.",
+      "colors": [
+        "U"
+      ],
+      "color_identity": [
+        "U"
+      ],
+      "rarity": "uncommon",
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/f/c/fcf7fd8a-adc3-4099-8e30-08375f263446.jpg?1608909511",
+        "normal": "https://cards.scryfall.io/normal/front/f/c/fcf7fd8a-adc3-4099-8e30-08375f263446.jpg?1608909511",
+        "large": "https://cards.scryfall.io/large/front/f/c/fcf7fd8a-adc3-4099-8e30-08375f263446.jpg?1608909511"
+      }
+    },
+    {
+      "card_id": "talrands_invocation",
+      "name": "Talrand's Invocation",
+      "scryfall_id": "88f43c2c-fee4-4df2-b326-a1d9840f64b0",
+      "set": "ncc",
+      "collector_number": "234",
+      "lang": "en",
+      "released_at": "2022-04-29",
+      "uri": "https://api.scryfall.com/cards/88f43c2c-fee4-4df2-b326-a1d9840f64b0",
+      "scryfall_uri": "https://scryfall.com/card/ncc/234/talrands-invocation?utm_source=api",
+      "type_line": "Sorcery",
+      "mana_cost": "{2}{U}{U}",
+      "cmc": 4.0,
+      "oracle_text": "Create two 2/2 blue Drake creature tokens with flying.",
+      "colors": [
+        "U"
+      ],
+      "color_identity": [
+        "U"
+      ],
+      "rarity": "uncommon",
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/8/8/88f43c2c-fee4-4df2-b326-a1d9840f64b0.jpg?1673484020",
+        "normal": "https://cards.scryfall.io/normal/front/8/8/88f43c2c-fee4-4df2-b326-a1d9840f64b0.jpg?1673484020",
+        "large": "https://cards.scryfall.io/large/front/8/8/88f43c2c-fee4-4df2-b326-a1d9840f64b0.jpg?1673484020"
+      }
+    },
+    {
+      "card_id": "vow_of_flight",
+      "name": "Vow of Flight",
+      "scryfall_id": "c9887121-6206-44bb-a1b4-520f28a61a17",
+      "set": "cmr",
+      "collector_number": "105",
+      "lang": "en",
+      "released_at": "2020-11-20",
+      "uri": "https://api.scryfall.com/cards/c9887121-6206-44bb-a1b4-520f28a61a17",
+      "scryfall_uri": "https://scryfall.com/card/cmr/105/vow-of-flight?utm_source=api",
+      "type_line": "Enchantment — Aura",
+      "mana_cost": "{2}{U}",
+      "cmc": 3.0,
+      "oracle_text": "Enchant creature\nEnchanted creature gets +2/+2, has flying, and can't attack you or planeswalkers you control.",
+      "colors": [
+        "U"
+      ],
+      "color_identity": [
+        "U"
+      ],
+      "rarity": "uncommon",
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/c/9/c9887121-6206-44bb-a1b4-520f28a61a17.jpg?1608909541",
+        "normal": "https://cards.scryfall.io/normal/front/c/9/c9887121-6206-44bb-a1b4-520f28a61a17.jpg?1608909541",
+        "large": "https://cards.scryfall.io/large/front/c/9/c9887121-6206-44bb-a1b4-520f28a61a17.jpg?1608909541"
+      }
+    },
+    {
+      "card_id": "bloodthirsty_blade",
+      "name": "Bloodthirsty Blade",
+      "scryfall_id": "bcdf583e-25f8-4227-96e9-e70ec8a36b09",
+      "set": "mkc",
+      "collector_number": "225",
+      "lang": "en",
+      "released_at": "2024-02-09",
+      "uri": "https://api.scryfall.com/cards/bcdf583e-25f8-4227-96e9-e70ec8a36b09",
+      "scryfall_uri": "https://scryfall.com/card/mkc/225/bloodthirsty-blade?utm_source=api",
+      "type_line": "Artifact — Equipment",
+      "mana_cost": "{2}",
+      "cmc": 2.0,
+      "oracle_text": "Equipped creature gets +2/+0 and is goaded. (It attacks each combat if able and attacks a player other than you if able.)\n{1}: Attach this Equipment to target creature an opponent controls. Activate only as a sorcery.",
+      "colors": [],
+      "color_identity": [],
+      "rarity": "uncommon",
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/b/c/bcdf583e-25f8-4227-96e9-e70ec8a36b09.jpg?1706241045",
+        "normal": "https://cards.scryfall.io/normal/front/b/c/bcdf583e-25f8-4227-96e9-e70ec8a36b09.jpg?1706241045",
+        "large": "https://cards.scryfall.io/large/front/b/c/bcdf583e-25f8-4227-96e9-e70ec8a36b09.jpg?1706241045"
+      }
+    },
+    {
+      "card_id": "gravewaker",
+      "name": "Gravewaker",
+      "scryfall_id": "d3c5eb7a-abb2-46bd-8fbd-19af63e70c9c",
+      "set": "jmp",
+      "collector_number": "241",
+      "lang": "en",
+      "released_at": "2020-07-17",
+      "uri": "https://api.scryfall.com/cards/d3c5eb7a-abb2-46bd-8fbd-19af63e70c9c",
+      "scryfall_uri": "https://scryfall.com/card/jmp/241/gravewaker?utm_source=api",
+      "type_line": "Creature — Bird Spirit",
+      "mana_cost": "{4}{B}{B}",
+      "cmc": 6.0,
+      "oracle_text": "Flying (This creature can't be blocked except by creatures with flying or reach.)\n{5}{B}{B}: Return target creature card from your graveyard to the battlefield tapped.",
+      "colors": [
+        "B"
+      ],
+      "color_identity": [
+        "B"
+      ],
+      "rarity": "rare",
+      "power": "5",
+      "toughness": "5",
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/d/3/d3c5eb7a-abb2-46bd-8fbd-19af63e70c9c.jpg?1600700481",
+        "normal": "https://cards.scryfall.io/normal/front/d/3/d3c5eb7a-abb2-46bd-8fbd-19af63e70c9c.jpg?1600700481",
+        "large": "https://cards.scryfall.io/large/front/d/3/d3c5eb7a-abb2-46bd-8fbd-19af63e70c9c.jpg?1600700481"
+      }
+    },
+    {
+      "card_id": "vogar_necropolis_tyrant",
+      "name": "Vogar, Necropolis Tyrant",
+      "scryfall_id": "42679318-e5c4-4aa4-8097-97552defc8bf",
+      "set": "gn3",
+      "collector_number": "3",
+      "lang": "en",
+      "released_at": "2022-10-14",
+      "uri": "https://api.scryfall.com/cards/42679318-e5c4-4aa4-8097-97552defc8bf",
+      "scryfall_uri": "https://scryfall.com/card/gn3/3/vogar-necropolis-tyrant?utm_source=api",
+      "type_line": "Legendary Creature — Zombie Giant",
+      "mana_cost": "{3}{B}{B}",
+      "cmc": 5.0,
+      "oracle_text": "Menace\nWhenever another creature dies during your turn, put a +1/+1 counter on Vogar.\nWhen Vogar dies, draw a card for each +1/+1 counter on it.",
+      "colors": [
+        "B"
+      ],
+      "color_identity": [
+        "B"
+      ],
+      "rarity": "mythic",
+      "power": "4",
+      "toughness": "4",
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/4/2/42679318-e5c4-4aa4-8097-97552defc8bf.jpg?1673301246",
+        "normal": "https://cards.scryfall.io/normal/front/4/2/42679318-e5c4-4aa4-8097-97552defc8bf.jpg?1673301246",
+        "large": "https://cards.scryfall.io/large/front/4/2/42679318-e5c4-4aa4-8097-97552defc8bf.jpg?1673301246"
+      }
+    },
+    {
+      "card_id": "bushmeat_poacher",
+      "name": "Bushmeat Poacher",
+      "scryfall_id": "cc01faf4-fabb-40c9-a1d6-359280535f91",
+      "set": "iko",
+      "collector_number": "77",
+      "lang": "en",
+      "released_at": "2020-04-24",
+      "uri": "https://api.scryfall.com/cards/cc01faf4-fabb-40c9-a1d6-359280535f91",
+      "scryfall_uri": "https://scryfall.com/card/iko/77/bushmeat-poacher?utm_source=api",
+      "type_line": "Creature — Human Soldier",
+      "mana_cost": "{3}{B}",
+      "cmc": 4.0,
+      "oracle_text": "{1}, {T}, Sacrifice another creature: You gain life equal to the sacrificed creature's toughness. Draw a card.",
+      "colors": [
+        "B"
+      ],
+      "color_identity": [
+        "B"
+      ],
+      "rarity": "common",
+      "power": "2",
+      "toughness": "4",
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/c/c/cc01faf4-fabb-40c9-a1d6-359280535f91.jpg?1591226634",
+        "normal": "https://cards.scryfall.io/normal/front/c/c/cc01faf4-fabb-40c9-a1d6-359280535f91.jpg?1591226634",
+        "large": "https://cards.scryfall.io/large/front/c/c/cc01faf4-fabb-40c9-a1d6-359280535f91.jpg?1591226634"
+      }
+    },
+    {
+      "card_id": "demon_of_loathing",
+      "name": "Demon of Loathing",
+      "scryfall_id": "57564f6f-7c99-4325-8a0e-22342e73767b",
+      "set": "thb",
+      "collector_number": "292",
+      "lang": "en",
+      "released_at": "2020-01-24",
+      "uri": "https://api.scryfall.com/cards/57564f6f-7c99-4325-8a0e-22342e73767b",
+      "scryfall_uri": "https://scryfall.com/card/thb/292/demon-of-loathing?utm_source=api",
+      "type_line": "Creature — Demon",
+      "mana_cost": "{5}{B}{B}",
+      "cmc": 7.0,
+      "oracle_text": "Flying, trample\nWhenever this creature deals combat damage to a player, that player sacrifices a creature of their choice.",
+      "colors": [
+        "B"
+      ],
+      "color_identity": [
+        "B"
+      ],
+      "rarity": "rare",
+      "power": "7",
+      "toughness": "7",
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/5/7/57564f6f-7c99-4325-8a0e-22342e73767b.jpg?1645131269",
+        "normal": "https://cards.scryfall.io/normal/front/5/7/57564f6f-7c99-4325-8a0e-22342e73767b.jpg?1645131269",
+        "large": "https://cards.scryfall.io/large/front/5/7/57564f6f-7c99-4325-8a0e-22342e73767b.jpg?1645131269"
+      }
+    },
+    {
+      "card_id": "doomed_dissenter",
+      "name": "Doomed Dissenter",
+      "scryfall_id": "f7c0cf16-81ea-45e3-99cc-4424d59bb44b",
+      "set": "vow",
+      "collector_number": "106",
+      "lang": "en",
+      "released_at": "2021-11-19",
+      "uri": "https://api.scryfall.com/cards/f7c0cf16-81ea-45e3-99cc-4424d59bb44b",
+      "scryfall_uri": "https://scryfall.com/card/vow/106/doomed-dissenter?utm_source=api",
+      "type_line": "Creature — Human",
+      "mana_cost": "{1}{B}",
+      "cmc": 2.0,
+      "oracle_text": "When this creature dies, create a 2/2 black Zombie creature token.",
+      "colors": [
+        "B"
+      ],
+      "color_identity": [
+        "B"
+      ],
+      "rarity": "common",
+      "power": "1",
+      "toughness": "1",
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/f/7/f7c0cf16-81ea-45e3-99cc-4424d59bb44b.jpg?1643589534",
+        "normal": "https://cards.scryfall.io/normal/front/f/7/f7c0cf16-81ea-45e3-99cc-4424d59bb44b.jpg?1643589534",
+        "large": "https://cards.scryfall.io/large/front/f/7/f7c0cf16-81ea-45e3-99cc-4424d59bb44b.jpg?1643589534"
+      }
+    },
+    {
+      "card_id": "dusk_legion_zealot",
+      "name": "Dusk Legion Zealot",
+      "scryfall_id": "72048624-e3fd-4e9b-91a9-996ea3a1a74f",
+      "set": "lcc",
+      "collector_number": "194",
+      "lang": "en",
+      "released_at": "2023-11-17",
+      "uri": "https://api.scryfall.com/cards/72048624-e3fd-4e9b-91a9-996ea3a1a74f",
+      "scryfall_uri": "https://scryfall.com/card/lcc/194/dusk-legion-zealot?utm_source=api",
+      "type_line": "Creature — Vampire Soldier",
+      "mana_cost": "{1}{B}",
+      "cmc": 2.0,
+      "oracle_text": "When this creature enters, you draw a card and you lose 1 life.",
+      "colors": [
+        "B"
+      ],
+      "color_identity": [
+        "B"
+      ],
+      "rarity": "common",
+      "power": "1",
+      "toughness": "1",
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/7/2/72048624-e3fd-4e9b-91a9-996ea3a1a74f.jpg?1698988245",
+        "normal": "https://cards.scryfall.io/normal/front/7/2/72048624-e3fd-4e9b-91a9-996ea3a1a74f.jpg?1698988245",
+        "large": "https://cards.scryfall.io/large/front/7/2/72048624-e3fd-4e9b-91a9-996ea3a1a74f.jpg?1698988245"
+      }
+    },
+    {
+      "card_id": "fleshbag_marauder",
+      "name": "Fleshbag Marauder",
+      "scryfall_id": "fce2baa4-2976-4bbd-b6c5-a5a3c6a901be",
+      "set": "clu",
+      "collector_number": "111",
+      "lang": "en",
+      "released_at": "2024-02-23",
+      "uri": "https://api.scryfall.com/cards/fce2baa4-2976-4bbd-b6c5-a5a3c6a901be",
+      "scryfall_uri": "https://scryfall.com/card/clu/111/fleshbag-marauder?utm_source=api",
+      "type_line": "Creature — Zombie Warrior",
+      "mana_cost": "{2}{B}",
+      "cmc": 3.0,
+      "oracle_text": "When this creature enters, each player sacrifices a creature of their choice.",
+      "colors": [
+        "B"
+      ],
+      "color_identity": [
+        "B"
+      ],
+      "rarity": "common",
+      "power": "3",
+      "toughness": "1",
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/f/c/fce2baa4-2976-4bbd-b6c5-a5a3c6a901be.jpg?1706239873",
+        "normal": "https://cards.scryfall.io/normal/front/f/c/fce2baa4-2976-4bbd-b6c5-a5a3c6a901be.jpg?1706239873",
+        "large": "https://cards.scryfall.io/large/front/f/c/fce2baa4-2976-4bbd-b6c5-a5a3c6a901be.jpg?1706239873"
+      }
+    },
+    {
+      "card_id": "gavony_unhallowed",
+      "name": "Gavony Unhallowed",
+      "scryfall_id": "186ed5a8-12d4-4b47-aa7f-5c6c86543008",
+      "set": "gn2",
+      "collector_number": "29",
+      "lang": "en",
+      "released_at": "2019-11-15",
+      "uri": "https://api.scryfall.com/cards/186ed5a8-12d4-4b47-aa7f-5c6c86543008",
+      "scryfall_uri": "https://scryfall.com/card/gn2/29/gavony-unhallowed?utm_source=api",
+      "type_line": "Creature — Zombie",
+      "mana_cost": "{3}{B}",
+      "cmc": 4.0,
+      "oracle_text": "Whenever another creature you control dies, put a +1/+1 counter on this creature.",
+      "colors": [
+        "B"
+      ],
+      "color_identity": [
+        "B"
+      ],
+      "rarity": "common",
+      "power": "2",
+      "toughness": "4",
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/1/8/186ed5a8-12d4-4b47-aa7f-5c6c86543008.jpg?1576267298",
+        "normal": "https://cards.scryfall.io/normal/front/1/8/186ed5a8-12d4-4b47-aa7f-5c6c86543008.jpg?1576267298",
+        "large": "https://cards.scryfall.io/large/front/1/8/186ed5a8-12d4-4b47-aa7f-5c6c86543008.jpg?1576267298"
+      }
+    },
+    {
+      "card_id": "gifted_aetherborn",
+      "name": "Gifted Aetherborn",
+      "scryfall_id": "8644d4d1-8499-40a8-a01f-68172c82bf58",
+      "set": "jmp",
+      "collector_number": "239",
+      "lang": "en",
+      "released_at": "2020-07-17",
+      "uri": "https://api.scryfall.com/cards/8644d4d1-8499-40a8-a01f-68172c82bf58",
+      "scryfall_uri": "https://scryfall.com/card/jmp/239/gifted-aetherborn?utm_source=api",
+      "type_line": "Creature — Aetherborn Vampire",
+      "mana_cost": "{B}{B}",
+      "cmc": 2.0,
+      "oracle_text": "Deathtouch, lifelink",
+      "colors": [
+        "B"
+      ],
+      "color_identity": [
+        "B"
+      ],
+      "rarity": "uncommon",
+      "power": "2",
+      "toughness": "3",
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/8/6/8644d4d1-8499-40a8-a01f-68172c82bf58.jpg?1600714489",
+        "normal": "https://cards.scryfall.io/normal/front/8/6/8644d4d1-8499-40a8-a01f-68172c82bf58.jpg?1600714489",
+        "large": "https://cards.scryfall.io/large/front/8/6/8644d4d1-8499-40a8-a01f-68172c82bf58.jpg?1600714489"
+      }
+    },
+    {
+      "card_id": "lord_of_the_accursed",
+      "name": "Lord of the Accursed",
+      "scryfall_id": "20bfecb3-2dc8-4549-9297-413131de8fdc",
+      "set": "mic",
+      "collector_number": "124",
+      "lang": "en",
+      "released_at": "2021-09-24",
+      "uri": "https://api.scryfall.com/cards/20bfecb3-2dc8-4549-9297-413131de8fdc",
+      "scryfall_uri": "https://scryfall.com/card/mic/124/lord-of-the-accursed?utm_source=api",
+      "type_line": "Creature — Zombie",
+      "mana_cost": "{2}{B}",
+      "cmc": 3.0,
+      "oracle_text": "Other Zombies you control get +1/+1.\n{1}{B}, {T}: All Zombies gain menace until end of turn.",
+      "colors": [
+        "B"
+      ],
+      "color_identity": [
+        "B"
+      ],
+      "rarity": "uncommon",
+      "power": "2",
+      "toughness": "3",
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/2/0/20bfecb3-2dc8-4549-9297-413131de8fdc.jpg?1637630635",
+        "normal": "https://cards.scryfall.io/normal/front/2/0/20bfecb3-2dc8-4549-9297-413131de8fdc.jpg?1637630635",
+        "large": "https://cards.scryfall.io/large/front/2/0/20bfecb3-2dc8-4549-9297-413131de8fdc.jpg?1637630635"
+      }
+    },
+    {
+      "card_id": "maalfeld_twins",
+      "name": "Maalfeld Twins",
+      "scryfall_id": "c166df8f-9508-427a-8ec7-bc8541b6ed88",
+      "set": "fdn",
+      "collector_number": "523",
+      "lang": "en",
+      "released_at": "2024-11-15",
+      "uri": "https://api.scryfall.com/cards/c166df8f-9508-427a-8ec7-bc8541b6ed88",
+      "scryfall_uri": "https://scryfall.com/card/fdn/523/maalfeld-twins?utm_source=api",
+      "type_line": "Creature — Zombie",
+      "mana_cost": "{5}{B}",
+      "cmc": 6.0,
+      "oracle_text": "When this creature dies, create two 2/2 black Zombie creature tokens.",
+      "colors": [
+        "B"
+      ],
+      "color_identity": [
+        "B"
+      ],
+      "rarity": "uncommon",
+      "power": "4",
+      "toughness": "4",
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/c/1/c166df8f-9508-427a-8ec7-bc8541b6ed88.jpg?1730490584",
+        "normal": "https://cards.scryfall.io/normal/front/c/1/c166df8f-9508-427a-8ec7-bc8541b6ed88.jpg?1730490584",
+        "large": "https://cards.scryfall.io/large/front/c/1/c166df8f-9508-427a-8ec7-bc8541b6ed88.jpg?1730490584"
+      }
+    },
+    {
+      "card_id": "priest_of_the_blood_rite",
+      "name": "Priest of the Blood Rite",
+      "scryfall_id": "14db0f35-905b-45c9-a0cc-1c47720380eb",
+      "set": "cmm",
+      "collector_number": "179",
+      "lang": "en",
+      "released_at": "2023-08-04",
+      "uri": "https://api.scryfall.com/cards/14db0f35-905b-45c9-a0cc-1c47720380eb",
+      "scryfall_uri": "https://scryfall.com/card/cmm/179/priest-of-the-blood-rite?utm_source=api",
+      "type_line": "Creature — Human Cleric",
+      "mana_cost": "{3}{B}{B}",
+      "cmc": 5.0,
+      "oracle_text": "When this creature enters, create a 5/5 black Demon creature token with flying.\nAt the beginning of your upkeep, you lose 2 life.",
+      "colors": [
+        "B"
+      ],
+      "color_identity": [
+        "B"
+      ],
+      "rarity": "uncommon",
+      "power": "2",
+      "toughness": "2",
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/1/4/14db0f35-905b-45c9-a0cc-1c47720380eb.jpg?1690016985",
+        "normal": "https://cards.scryfall.io/normal/front/1/4/14db0f35-905b-45c9-a0cc-1c47720380eb.jpg?1690016985",
+        "large": "https://cards.scryfall.io/large/front/1/4/14db0f35-905b-45c9-a0cc-1c47720380eb.jpg?1690016985"
+      }
+    },
+    {
+      "card_id": "ravenous_chupacabra",
+      "name": "Ravenous Chupacabra",
+      "scryfall_id": "a4dfbac0-1849-41c5-853a-1fee108d0b01",
+      "set": "mkc",
+      "collector_number": "136",
+      "lang": "en",
+      "released_at": "2024-02-09",
+      "uri": "https://api.scryfall.com/cards/a4dfbac0-1849-41c5-853a-1fee108d0b01",
+      "scryfall_uri": "https://scryfall.com/card/mkc/136/ravenous-chupacabra?utm_source=api",
+      "type_line": "Creature — Beast Horror",
+      "mana_cost": "{2}{B}{B}",
+      "cmc": 4.0,
+      "oracle_text": "When this creature enters, destroy target creature an opponent controls.",
+      "colors": [
+        "B"
+      ],
+      "color_identity": [
+        "B"
+      ],
+      "rarity": "uncommon",
+      "power": "2",
+      "toughness": "2",
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/a/4/a4dfbac0-1849-41c5-853a-1fee108d0b01.jpg?1706240787",
+        "normal": "https://cards.scryfall.io/normal/front/a/4/a4dfbac0-1849-41c5-853a-1fee108d0b01.jpg?1706240787",
+        "large": "https://cards.scryfall.io/large/front/a/4/a4dfbac0-1849-41c5-853a-1fee108d0b01.jpg?1706240787"
+      }
+    },
+    {
+      "card_id": "reassembling_skeleton",
+      "name": "Reassembling Skeleton",
+      "scryfall_id": "4d431445-d7db-4ce1-b422-41494d9be1b4",
+      "set": "tdc",
+      "collector_number": "195",
+      "lang": "en",
+      "released_at": "2025-04-11",
+      "uri": "https://api.scryfall.com/cards/4d431445-d7db-4ce1-b422-41494d9be1b4",
+      "scryfall_uri": "https://scryfall.com/card/tdc/195/reassembling-skeleton?utm_source=api",
+      "type_line": "Creature — Skeleton Warrior",
+      "mana_cost": "{1}{B}",
+      "cmc": 2.0,
+      "oracle_text": "{1}{B}: Return this card from your graveyard to the battlefield tapped.",
+      "colors": [
+        "B"
+      ],
+      "color_identity": [
+        "B"
+      ],
+      "rarity": "uncommon",
+      "power": "1",
+      "toughness": "1",
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/4/d/4d431445-d7db-4ce1-b422-41494d9be1b4.jpg?1743206578",
+        "normal": "https://cards.scryfall.io/normal/front/4/d/4d431445-d7db-4ce1-b422-41494d9be1b4.jpg?1743206578",
+        "large": "https://cards.scryfall.io/large/front/4/d/4d431445-d7db-4ce1-b422-41494d9be1b4.jpg?1743206578"
+      }
+    },
+    {
+      "card_id": "vilis_broker_of_blood",
+      "name": "Vilis, Broker of Blood",
+      "scryfall_id": "ecdf2bd9-87b9-470a-ad2e-0ebf98560f87",
+      "set": "m20",
+      "collector_number": "122",
+      "lang": "en",
+      "released_at": "2019-07-12",
+      "uri": "https://api.scryfall.com/cards/ecdf2bd9-87b9-470a-ad2e-0ebf98560f87",
+      "scryfall_uri": "https://scryfall.com/card/m20/122/vilis-broker-of-blood?utm_source=api",
+      "type_line": "Legendary Creature — Demon",
+      "mana_cost": "{5}{B}{B}{B}",
+      "cmc": 8.0,
+      "oracle_text": "Flying\n{B}, Pay 2 life: Target creature gets -1/-1 until end of turn.\nWhenever you lose life, draw that many cards. (Damage causes loss of life.)",
+      "colors": [
+        "B"
+      ],
+      "color_identity": [
+        "B"
+      ],
+      "rarity": "rare",
+      "power": "8",
+      "toughness": "8",
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/e/c/ecdf2bd9-87b9-470a-ad2e-0ebf98560f87.jpg?1592516819",
+        "normal": "https://cards.scryfall.io/normal/front/e/c/ecdf2bd9-87b9-470a-ad2e-0ebf98560f87.jpg?1592516819",
+        "large": "https://cards.scryfall.io/large/front/e/c/ecdf2bd9-87b9-470a-ad2e-0ebf98560f87.jpg?1592516819"
+      }
+    },
+    {
+      "card_id": "bloodsoaked_altar",
+      "name": "Bloodsoaked Altar",
+      "scryfall_id": "b9169431-a5b1-42ea-bcf4-6c750d2a2dbb",
+      "set": "m20",
+      "collector_number": "90",
+      "lang": "en",
+      "released_at": "2019-07-12",
+      "uri": "https://api.scryfall.com/cards/b9169431-a5b1-42ea-bcf4-6c750d2a2dbb",
+      "scryfall_uri": "https://scryfall.com/card/m20/90/bloodsoaked-altar?utm_source=api",
+      "type_line": "Artifact",
+      "mana_cost": "{4}{B}{B}",
+      "cmc": 6.0,
+      "oracle_text": "{T}, Pay 2 life, Discard a card, Sacrifice a creature: Create a 5/5 black Demon creature token with flying. Activate only as a sorcery.",
+      "colors": [
+        "B"
+      ],
+      "color_identity": [
+        "B"
+      ],
+      "rarity": "uncommon",
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/b/9/b9169431-a5b1-42ea-bcf4-6c750d2a2dbb.jpg?1592516608",
+        "normal": "https://cards.scryfall.io/normal/front/b/9/b9169431-a5b1-42ea-bcf4-6c750d2a2dbb.jpg?1592516608",
+        "large": "https://cards.scryfall.io/large/front/b/9/b9169431-a5b1-42ea-bcf4-6c750d2a2dbb.jpg?1592516608"
+      }
+    },
+    {
+      "card_id": "demonic_embrace",
+      "name": "Demonic Embrace",
+      "scryfall_id": "56149192-ddc1-45a4-b7aa-be311da5fe8e",
+      "set": "m21",
+      "collector_number": "95",
+      "lang": "en",
+      "released_at": "2020-07-03",
+      "uri": "https://api.scryfall.com/cards/56149192-ddc1-45a4-b7aa-be311da5fe8e",
+      "scryfall_uri": "https://scryfall.com/card/m21/95/demonic-embrace?utm_source=api",
+      "type_line": "Enchantment — Aura",
+      "mana_cost": "{1}{B}{B}",
+      "cmc": 3.0,
+      "oracle_text": "Enchant creature\nEnchanted creature gets +3/+1, has flying, and is a Demon in addition to its other types.\nYou may cast this card from your graveyard by paying 3 life and discarding a card in addition to paying its other costs.",
+      "colors": [
+        "B"
+      ],
+      "color_identity": [
+        "B"
+      ],
+      "rarity": "rare",
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/5/6/56149192-ddc1-45a4-b7aa-be311da5fe8e.jpg?1594736081",
+        "normal": "https://cards.scryfall.io/normal/front/5/6/56149192-ddc1-45a4-b7aa-be311da5fe8e.jpg?1594736081",
+        "large": "https://cards.scryfall.io/large/front/5/6/56149192-ddc1-45a4-b7aa-be311da5fe8e.jpg?1594736081"
+      }
+    },
+    {
+      "card_id": "doom_blade",
+      "name": "Doom Blade",
+      "scryfall_id": "90699423-2556-40f7-b8f5-c9d82f22d52e",
+      "set": "ima",
+      "collector_number": "87",
+      "lang": "en",
+      "released_at": "2017-11-17",
+      "uri": "https://api.scryfall.com/cards/90699423-2556-40f7-b8f5-c9d82f22d52e",
+      "scryfall_uri": "https://scryfall.com/card/ima/87/doom-blade?utm_source=api",
+      "type_line": "Instant",
+      "mana_cost": "{1}{B}",
+      "cmc": 2.0,
+      "oracle_text": "Destroy target nonblack creature.",
+      "colors": [
+        "B"
+      ],
+      "color_identity": [
+        "B"
+      ],
+      "rarity": "uncommon",
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/9/0/90699423-2556-40f7-b8f5-c9d82f22d52e.jpg?1562851557",
+        "normal": "https://cards.scryfall.io/normal/front/9/0/90699423-2556-40f7-b8f5-c9d82f22d52e.jpg?1562851557",
+        "large": "https://cards.scryfall.io/large/front/9/0/90699423-2556-40f7-b8f5-c9d82f22d52e.jpg?1562851557"
+      }
+    },
+    {
+      "card_id": "lilianas_mastery",
+      "name": "Liliana's Mastery",
+      "scryfall_id": "a92ee6ec-eebf-40b4-9dd9-c0551e33f5ff",
+      "set": "mic",
+      "collector_number": "123",
+      "lang": "en",
+      "released_at": "2021-09-24",
+      "uri": "https://api.scryfall.com/cards/a92ee6ec-eebf-40b4-9dd9-c0551e33f5ff",
+      "scryfall_uri": "https://scryfall.com/card/mic/123/lilianas-mastery?utm_source=api",
+      "type_line": "Enchantment",
+      "mana_cost": "{3}{B}{B}",
+      "cmc": 5.0,
+      "oracle_text": "Zombies you control get +1/+1.\nWhen this enchantment enters, create two 2/2 black Zombie creature tokens.",
+      "colors": [
+        "B"
+      ],
+      "color_identity": [
+        "B"
+      ],
+      "rarity": "rare",
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/a/9/a92ee6ec-eebf-40b4-9dd9-c0551e33f5ff.jpg?1637630606",
+        "normal": "https://cards.scryfall.io/normal/front/a/9/a92ee6ec-eebf-40b4-9dd9-c0551e33f5ff.jpg?1637630606",
+        "large": "https://cards.scryfall.io/large/front/a/9/a92ee6ec-eebf-40b4-9dd9-c0551e33f5ff.jpg?1637630606"
+      }
+    },
+    {
+      "card_id": "moan_of_the_unhallowed",
+      "name": "Moan of the Unhallowed",
+      "scryfall_id": "2a1f42ee-7f4e-4b2a-b60b-750662878a5c",
+      "set": "uma",
+      "collector_number": "107",
+      "lang": "en",
+      "released_at": "2018-12-07",
+      "uri": "https://api.scryfall.com/cards/2a1f42ee-7f4e-4b2a-b60b-750662878a5c",
+      "scryfall_uri": "https://scryfall.com/card/uma/107/moan-of-the-unhallowed?utm_source=api",
+      "type_line": "Sorcery",
+      "mana_cost": "{2}{B}{B}",
+      "cmc": 4.0,
+      "oracle_text": "Create two 2/2 black Zombie creature tokens.\nFlashback {5}{B}{B} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+      "colors": [
+        "B"
+      ],
+      "color_identity": [
+        "B"
+      ],
+      "rarity": "common",
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/2/a/2a1f42ee-7f4e-4b2a-b60b-750662878a5c.jpg?1547516972",
+        "normal": "https://cards.scryfall.io/normal/front/2/a/2a1f42ee-7f4e-4b2a-b60b-750662878a5c.jpg?1547516972",
+        "large": "https://cards.scryfall.io/large/front/2/a/2a1f42ee-7f4e-4b2a-b60b-750662878a5c.jpg?1547516972"
+      }
+    },
+    {
+      "card_id": "sign_in_blood",
+      "name": "Sign in Blood",
+      "scryfall_id": "b89d9372-8682-4a61-a003-8bccfbb6cbb4",
+      "set": "dsc",
+      "collector_number": "156",
+      "lang": "en",
+      "released_at": "2024-09-27",
+      "uri": "https://api.scryfall.com/cards/b89d9372-8682-4a61-a003-8bccfbb6cbb4",
+      "scryfall_uri": "https://scryfall.com/card/dsc/156/sign-in-blood?utm_source=api",
+      "type_line": "Sorcery",
+      "mana_cost": "{B}{B}",
+      "cmc": 2.0,
+      "oracle_text": "Target player draws two cards and loses 2 life.",
+      "colors": [
+        "B"
+      ],
+      "color_identity": [
+        "B"
+      ],
+      "rarity": "common",
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/b/8/b89d9372-8682-4a61-a003-8bccfbb6cbb4.jpg?1726284903",
+        "normal": "https://cards.scryfall.io/normal/front/b/8/b89d9372-8682-4a61-a003-8bccfbb6cbb4.jpg?1726284903",
+        "large": "https://cards.scryfall.io/large/front/b/8/b89d9372-8682-4a61-a003-8bccfbb6cbb4.jpg?1726284903"
+      }
+    },
+    {
+      "card_id": "supernatural_stamina",
+      "name": "Supernatural Stamina",
+      "scryfall_id": "2b349b4b-f08d-45e8-81f6-3467a02e6d23",
+      "set": "cmm",
+      "collector_number": "188",
+      "lang": "en",
+      "released_at": "2023-08-04",
+      "uri": "https://api.scryfall.com/cards/2b349b4b-f08d-45e8-81f6-3467a02e6d23",
+      "scryfall_uri": "https://scryfall.com/card/cmm/188/supernatural-stamina?utm_source=api",
+      "type_line": "Instant",
+      "mana_cost": "{B}",
+      "cmc": 1.0,
+      "oracle_text": "Until end of turn, target creature gets +2/+0 and gains \"When this creature dies, return it to the battlefield tapped under its owner's control.\"",
+      "colors": [
+        "B"
+      ],
+      "color_identity": [
+        "B"
+      ],
+      "rarity": "common",
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/2/b/2b349b4b-f08d-45e8-81f6-3467a02e6d23.jpg?1689997476",
+        "normal": "https://cards.scryfall.io/normal/front/2/b/2b349b4b-f08d-45e8-81f6-3467a02e6d23.jpg?1689997476",
+        "large": "https://cards.scryfall.io/large/front/2/b/2b349b4b-f08d-45e8-81f6-3467a02e6d23.jpg?1689997476"
+      }
+    },
+    {
+      "card_id": "village_rites",
+      "name": "Village Rites",
+      "scryfall_id": "42ed35e9-51cd-468a-86a9-9412553cf50d",
+      "set": "inr",
+      "collector_number": "137",
+      "lang": "en",
+      "released_at": "2025-01-24",
+      "uri": "https://api.scryfall.com/cards/42ed35e9-51cd-468a-86a9-9412553cf50d",
+      "scryfall_uri": "https://scryfall.com/card/inr/137/village-rites?utm_source=api",
+      "type_line": "Instant",
+      "mana_cost": "{B}",
+      "cmc": 1.0,
+      "oracle_text": "As an additional cost to cast this spell, sacrifice a creature.\nDraw two cards.",
+      "colors": [
+        "B"
+      ],
+      "color_identity": [
+        "B"
+      ],
+      "rarity": "common",
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/4/2/42ed35e9-51cd-468a-86a9-9412553cf50d.jpg?1736468066",
+        "normal": "https://cards.scryfall.io/normal/front/4/2/42ed35e9-51cd-468a-86a9-9412553cf50d.jpg?1736468066",
+        "large": "https://cards.scryfall.io/large/front/4/2/42ed35e9-51cd-468a-86a9-9412553cf50d.jpg?1736468066"
+      }
+    },
+    {
+      "card_id": "vow_of_torment",
+      "name": "Vow of Torment",
+      "scryfall_id": "ae74624e-3850-4153-b682-d044272269c1",
+      "set": "cmr",
+      "collector_number": "159",
+      "lang": "en",
+      "released_at": "2020-11-20",
+      "uri": "https://api.scryfall.com/cards/ae74624e-3850-4153-b682-d044272269c1",
+      "scryfall_uri": "https://scryfall.com/card/cmr/159/vow-of-torment?utm_source=api",
+      "type_line": "Enchantment — Aura",
+      "mana_cost": "{2}{B}",
+      "cmc": 3.0,
+      "oracle_text": "Enchant creature\nEnchanted creature gets +2/+2, has menace, and can't attack you or planeswalkers you control. (It can't be blocked except by two or more creatures.)",
+      "colors": [
+        "B"
+      ],
+      "color_identity": [
+        "B"
+      ],
+      "rarity": "uncommon",
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/a/e/ae74624e-3850-4153-b682-d044272269c1.jpg?1608910035",
+        "normal": "https://cards.scryfall.io/normal/front/a/e/ae74624e-3850-4153-b682-d044272269c1.jpg?1608910035",
+        "large": "https://cards.scryfall.io/large/front/a/e/ae74624e-3850-4153-b682-d044272269c1.jpg?1608910035"
+      }
+    },
+    {
+      "card_id": "drakuseth_maw_of_flames",
+      "name": "Drakuseth, Maw of Flames",
+      "scryfall_id": "029b1edb-e1de-4f1c-81df-8d17f4920318",
+      "set": "fdn",
+      "collector_number": "193",
+      "lang": "en",
+      "released_at": "2024-11-15",
+      "uri": "https://api.scryfall.com/cards/029b1edb-e1de-4f1c-81df-8d17f4920318",
+      "scryfall_uri": "https://scryfall.com/card/fdn/193/drakuseth-maw-of-flames?utm_source=api",
+      "type_line": "Legendary Creature — Dragon",
+      "mana_cost": "{4}{R}{R}{R}",
+      "cmc": 7.0,
+      "oracle_text": "Flying\nWhenever Drakuseth attacks, it deals 4 damage to any target and 3 damage to each of up to two other targets.",
+      "colors": [
+        "R"
+      ],
+      "color_identity": [
+        "R"
+      ],
+      "rarity": "rare",
+      "power": "7",
+      "toughness": "7",
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/0/2/029b1edb-e1de-4f1c-81df-8d17f4920318.jpg?1730489313",
+        "normal": "https://cards.scryfall.io/normal/front/0/2/029b1edb-e1de-4f1c-81df-8d17f4920318.jpg?1730489313",
+        "large": "https://cards.scryfall.io/large/front/0/2/029b1edb-e1de-4f1c-81df-8d17f4920318.jpg?1730489313"
+      }
+    },
+    {
+      "card_id": "nogi_draco_zealot",
+      "name": "Nogi, Draco-Zealot",
+      "scryfall_id": "86e576f2-8f9f-4bbf-85c4-b99ecb665412",
+      "set": "tdc",
+      "collector_number": "226",
+      "lang": "en",
+      "released_at": "2025-04-11",
+      "uri": "https://api.scryfall.com/cards/86e576f2-8f9f-4bbf-85c4-b99ecb665412",
+      "scryfall_uri": "https://scryfall.com/card/tdc/226/nogi-draco-zealot?utm_source=api",
+      "type_line": "Legendary Creature — Kobold Shaman",
+      "mana_cost": "{1}{R}{R}",
+      "cmc": 3.0,
+      "oracle_text": "Dragon spells you cast cost {1} less to cast.\nWhenever Nogi attacks, if you control three or more Dragons, until end of turn, Nogi becomes a Dragon with base power and toughness 5/5 and gains flying.",
+      "colors": [
+        "R"
+      ],
+      "color_identity": [
+        "R"
+      ],
+      "rarity": "mythic",
+      "power": "3",
+      "toughness": "3",
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/8/6/86e576f2-8f9f-4bbf-85c4-b99ecb665412.jpg?1743206746",
+        "normal": "https://cards.scryfall.io/normal/front/8/6/86e576f2-8f9f-4bbf-85c4-b99ecb665412.jpg?1743206746",
+        "large": "https://cards.scryfall.io/large/front/8/6/86e576f2-8f9f-4bbf-85c4-b99ecb665412.jpg?1743206746"
+      }
+    },
+    {
+      "card_id": "ancient_hellkite",
+      "name": "Ancient Hellkite",
+      "scryfall_id": "96cede38-0f02-4ce0-b947-ce3d7d7c2882",
+      "set": "m11",
+      "collector_number": "122",
+      "lang": "en",
+      "released_at": "2010-07-16",
+      "uri": "https://api.scryfall.com/cards/96cede38-0f02-4ce0-b947-ce3d7d7c2882",
+      "scryfall_uri": "https://scryfall.com/card/m11/122/ancient-hellkite?utm_source=api",
+      "type_line": "Creature — Dragon",
+      "mana_cost": "{4}{R}{R}{R}",
+      "cmc": 7.0,
+      "oracle_text": "Flying\n{R}: This creature deals 1 damage to target creature defending player controls. Activate only if this creature is attacking.",
+      "colors": [
+        "R"
+      ],
+      "color_identity": [
+        "R"
+      ],
+      "rarity": "rare",
+      "power": "6",
+      "toughness": "6",
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/9/6/96cede38-0f02-4ce0-b947-ce3d7d7c2882.jpg?1562468553",
+        "normal": "https://cards.scryfall.io/normal/front/9/6/96cede38-0f02-4ce0-b947-ce3d7d7c2882.jpg?1562468553",
+        "large": "https://cards.scryfall.io/large/front/9/6/96cede38-0f02-4ce0-b947-ce3d7d7c2882.jpg?1562468553"
+      }
+    },
+    {
+      "card_id": "dragon_egg",
+      "name": "Dragon Egg",
+      "scryfall_id": "300761b6-9943-4251-9b1a-96a940f3334b",
+      "set": "cmr",
+      "collector_number": "173",
+      "lang": "en",
+      "released_at": "2020-11-20",
+      "uri": "https://api.scryfall.com/cards/300761b6-9943-4251-9b1a-96a940f3334b",
+      "scryfall_uri": "https://scryfall.com/card/cmr/173/dragon-egg?utm_source=api",
+      "type_line": "Creature — Dragon Egg",
+      "mana_cost": "{2}{R}",
+      "cmc": 3.0,
+      "oracle_text": "Defender\nWhen this creature dies, create a 2/2 red Dragon creature token with flying and \"{R}: This token gets +1/+0 until end of turn.\"",
+      "colors": [
+        "R"
+      ],
+      "color_identity": [
+        "R"
+      ],
+      "rarity": "common",
+      "power": "0",
+      "toughness": "2",
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/3/0/300761b6-9943-4251-9b1a-96a940f3334b.jpg?1608910163",
+        "normal": "https://cards.scryfall.io/normal/front/3/0/300761b6-9943-4251-9b1a-96a940f3334b.jpg?1608910163",
+        "large": "https://cards.scryfall.io/large/front/3/0/300761b6-9943-4251-9b1a-96a940f3334b.jpg?1608910163"
+      }
+    },
+    {
+      "card_id": "dragon_hatchling",
+      "name": "Dragon Hatchling",
+      "scryfall_id": "c5d3a18c-d030-494d-b7b1-4d1d1e27fbbf",
+      "set": "jmp",
+      "collector_number": "310",
+      "lang": "en",
+      "released_at": "2020-07-17",
+      "uri": "https://api.scryfall.com/cards/c5d3a18c-d030-494d-b7b1-4d1d1e27fbbf",
+      "scryfall_uri": "https://scryfall.com/card/jmp/310/dragon-hatchling?utm_source=api",
+      "type_line": "Creature — Dragon",
+      "mana_cost": "{1}{R}",
+      "cmc": 2.0,
+      "oracle_text": "Flying\n{R}: This creature gets +1/+0 until end of turn.",
+      "colors": [
+        "R"
+      ],
+      "color_identity": [
+        "R"
+      ],
+      "rarity": "common",
+      "power": "0",
+      "toughness": "1",
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/c/5/c5d3a18c-d030-494d-b7b1-4d1d1e27fbbf.jpg?1601077526",
+        "normal": "https://cards.scryfall.io/normal/front/c/5/c5d3a18c-d030-494d-b7b1-4d1d1e27fbbf.jpg?1601077526",
+        "large": "https://cards.scryfall.io/large/front/c/5/c5d3a18c-d030-494d-b7b1-4d1d1e27fbbf.jpg?1601077526"
+      }
+    },
+    {
+      "card_id": "dragon_mage",
+      "name": "Dragon Mage",
+      "scryfall_id": "5525cfde-a92b-4fb5-8f15-a05efebecd3d",
+      "set": "fdn",
+      "collector_number": "621",
+      "lang": "en",
+      "released_at": "2024-11-15",
+      "uri": "https://api.scryfall.com/cards/5525cfde-a92b-4fb5-8f15-a05efebecd3d",
+      "scryfall_uri": "https://scryfall.com/card/fdn/621/dragon-mage?utm_source=api",
+      "type_line": "Creature — Dragon Wizard",
+      "mana_cost": "{5}{R}{R}",
+      "cmc": 7.0,
+      "oracle_text": "Flying\nWhenever this creature deals combat damage to a player, each player discards their hand, then draws seven cards.",
+      "colors": [
+        "R"
+      ],
+      "color_identity": [
+        "R"
+      ],
+      "rarity": "uncommon",
+      "power": "5",
+      "toughness": "5",
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/5/5/5525cfde-a92b-4fb5-8f15-a05efebecd3d.jpg?1730490953",
+        "normal": "https://cards.scryfall.io/normal/front/5/5/5525cfde-a92b-4fb5-8f15-a05efebecd3d.jpg?1730490953",
+        "large": "https://cards.scryfall.io/large/front/5/5/5525cfde-a92b-4fb5-8f15-a05efebecd3d.jpg?1730490953"
+      }
+    },
+    {
+      "card_id": "dragonspeaker_shaman",
+      "name": "Dragonspeaker Shaman",
+      "scryfall_id": "7b0a2799-197e-4d61-ab23-67d974458a05",
+      "set": "afc",
+      "collector_number": "330",
+      "lang": "en",
+      "released_at": "2021-07-23",
+      "uri": "https://api.scryfall.com/cards/7b0a2799-197e-4d61-ab23-67d974458a05",
+      "scryfall_uri": "https://scryfall.com/card/afc/330/dragonspeaker-shaman?utm_source=api",
+      "type_line": "Creature — Human Barbarian Shaman",
+      "mana_cost": "{1}{R}{R}",
+      "cmc": 3.0,
+      "oracle_text": "Dragon spells you cast cost {2} less to cast.",
+      "colors": [
+        "R"
+      ],
+      "color_identity": [
+        "R"
+      ],
+      "rarity": "uncommon",
+      "power": "2",
+      "toughness": "2",
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/7/b/7b0a2799-197e-4d61-ab23-67d974458a05.jpg?1631590611",
+        "normal": "https://cards.scryfall.io/normal/front/7/b/7b0a2799-197e-4d61-ab23-67d974458a05.jpg?1631590611",
+        "large": "https://cards.scryfall.io/large/front/7/b/7b0a2799-197e-4d61-ab23-67d974458a05.jpg?1631590611"
+      }
+    },
+    {
+      "card_id": "flameblast_dragon",
+      "name": "Flameblast Dragon",
+      "scryfall_id": "c66293df-a50e-4c64-9482-a2af68288d76",
+      "set": "c18",
+      "collector_number": "123",
+      "lang": "en",
+      "released_at": "2018-08-10",
+      "uri": "https://api.scryfall.com/cards/c66293df-a50e-4c64-9482-a2af68288d76",
+      "scryfall_uri": "https://scryfall.com/card/c18/123/flameblast-dragon?utm_source=api",
+      "type_line": "Creature — Dragon",
+      "mana_cost": "{4}{R}{R}",
+      "cmc": 6.0,
+      "oracle_text": "Flying\nWhenever this creature attacks, you may pay {X}{R}. If you do, it deals X damage to any target.",
+      "colors": [
+        "R"
+      ],
+      "color_identity": [
+        "R"
+      ],
+      "rarity": "rare",
+      "power": "5",
+      "toughness": "5",
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/c/6/c66293df-a50e-4c64-9482-a2af68288d76.jpg?1592710764",
+        "normal": "https://cards.scryfall.io/normal/front/c/6/c66293df-a50e-4c64-9482-a2af68288d76.jpg?1592710764",
+        "large": "https://cards.scryfall.io/large/front/c/6/c66293df-a50e-4c64-9482-a2af68288d76.jpg?1592710764"
+      }
+    },
+    {
+      "card_id": "flametongue_kavu",
+      "name": "Flametongue Kavu",
+      "scryfall_id": "1b3a5139-3341-409e-be33-184897c7398e",
+      "set": "dmr",
+      "collector_number": "120",
+      "lang": "en",
+      "released_at": "2023-01-13",
+      "uri": "https://api.scryfall.com/cards/1b3a5139-3341-409e-be33-184897c7398e",
+      "scryfall_uri": "https://scryfall.com/card/dmr/120/flametongue-kavu?utm_source=api",
+      "type_line": "Creature — Kavu",
+      "mana_cost": "{3}{R}",
+      "cmc": 4.0,
+      "oracle_text": "When this creature enters, it deals 4 damage to target creature.",
+      "colors": [
+        "R"
+      ],
+      "color_identity": [
+        "R"
+      ],
+      "rarity": "uncommon",
+      "power": "4",
+      "toughness": "2",
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/1/b/1b3a5139-3341-409e-be33-184897c7398e.jpg?1675199972",
+        "normal": "https://cards.scryfall.io/normal/front/1/b/1b3a5139-3341-409e-be33-184897c7398e.jpg?1675199972",
+        "large": "https://cards.scryfall.io/large/front/1/b/1b3a5139-3341-409e-be33-184897c7398e.jpg?1675199972"
+      }
+    },
+    {
+      "card_id": "furnace_whelp",
+      "name": "Furnace Whelp",
+      "scryfall_id": "2ce76e86-39f3-4ebf-b550-88ea7f23a91f",
+      "set": "jmp",
+      "collector_number": "323",
+      "lang": "en",
+      "released_at": "2020-07-17",
+      "uri": "https://api.scryfall.com/cards/2ce76e86-39f3-4ebf-b550-88ea7f23a91f",
+      "scryfall_uri": "https://scryfall.com/card/jmp/323/furnace-whelp?utm_source=api",
+      "type_line": "Creature — Dragon",
+      "mana_cost": "{2}{R}{R}",
+      "cmc": 4.0,
+      "oracle_text": "Flying\n{R}: This creature gets +1/+0 until end of turn.",
+      "colors": [
+        "R"
+      ],
+      "color_identity": [
+        "R"
+      ],
+      "rarity": "uncommon",
+      "power": "2",
+      "toughness": "2",
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/2/c/2ce76e86-39f3-4ebf-b550-88ea7f23a91f.jpg?1601077737",
+        "normal": "https://cards.scryfall.io/normal/front/2/c/2ce76e86-39f3-4ebf-b550-88ea7f23a91f.jpg?1601077737",
+        "large": "https://cards.scryfall.io/large/front/2/c/2ce76e86-39f3-4ebf-b550-88ea7f23a91f.jpg?1601077737"
+      }
+    },
+    {
+      "card_id": "goblin_motivator",
+      "name": "Goblin Motivator",
+      "scryfall_id": "94b3a4fb-9024-45ef-a54b-cf3a9fa5b9c2",
+      "set": "m19",
+      "collector_number": "143",
+      "lang": "en",
+      "released_at": "2018-07-13",
+      "uri": "https://api.scryfall.com/cards/94b3a4fb-9024-45ef-a54b-cf3a9fa5b9c2",
+      "scryfall_uri": "https://scryfall.com/card/m19/143/goblin-motivator?utm_source=api",
+      "type_line": "Creature — Goblin Warrior",
+      "mana_cost": "{R}",
+      "cmc": 1.0,
+      "oracle_text": "{T}: Target creature gains haste until end of turn. (It can attack and {T} this turn.)",
+      "colors": [
+        "R"
+      ],
+      "color_identity": [
+        "R"
+      ],
+      "rarity": "common",
+      "power": "1",
+      "toughness": "1",
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/9/4/94b3a4fb-9024-45ef-a54b-cf3a9fa5b9c2.jpg?1562303343",
+        "normal": "https://cards.scryfall.io/normal/front/9/4/94b3a4fb-9024-45ef-a54b-cf3a9fa5b9c2.jpg?1562303343",
+        "large": "https://cards.scryfall.io/large/front/9/4/94b3a4fb-9024-45ef-a54b-cf3a9fa5b9c2.jpg?1562303343"
+      }
+    },
+    {
+      "card_id": "kargan_dragonrider",
+      "name": "Kargan Dragonrider",
+      "scryfall_id": "701aef07-4291-4dfd-b9b2-bfc26745341c",
+      "set": "fdn",
+      "collector_number": "541",
+      "lang": "en",
+      "released_at": "2024-11-15",
+      "uri": "https://api.scryfall.com/cards/701aef07-4291-4dfd-b9b2-bfc26745341c",
+      "scryfall_uri": "https://scryfall.com/card/fdn/541/kargan-dragonrider?utm_source=api",
+      "type_line": "Creature — Human Warrior",
+      "mana_cost": "{1}{R}",
+      "cmc": 2.0,
+      "oracle_text": "As long as you control a Dragon, this creature has flying.",
+      "colors": [
+        "R"
+      ],
+      "color_identity": [
+        "R"
+      ],
+      "rarity": "common",
+      "power": "2",
+      "toughness": "2",
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/7/0/701aef07-4291-4dfd-b9b2-bfc26745341c.jpg?1730490652",
+        "normal": "https://cards.scryfall.io/normal/front/7/0/701aef07-4291-4dfd-b9b2-bfc26745341c.jpg?1730490652",
+        "large": "https://cards.scryfall.io/large/front/7/0/701aef07-4291-4dfd-b9b2-bfc26745341c.jpg?1730490652"
+      }
+    },
+    {
+      "card_id": "knollspine_dragon",
+      "name": "Knollspine Dragon",
+      "scryfall_id": "bfcfec58-bfe4-4b04-80e3-ee11c44e91a7",
+      "set": "shm",
+      "collector_number": "98",
+      "lang": "en",
+      "released_at": "2008-05-02",
+      "uri": "https://api.scryfall.com/cards/bfcfec58-bfe4-4b04-80e3-ee11c44e91a7",
+      "scryfall_uri": "https://scryfall.com/card/shm/98/knollspine-dragon?utm_source=api",
+      "type_line": "Creature — Dragon",
+      "mana_cost": "{5}{R}{R}",
+      "cmc": 7.0,
+      "oracle_text": "Flying\nWhen this creature enters, you may discard your hand and draw cards equal to the damage dealt to target opponent this turn.",
+      "colors": [
+        "R"
+      ],
+      "color_identity": [
+        "R"
+      ],
+      "rarity": "rare",
+      "power": "7",
+      "toughness": "5",
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/b/f/bfcfec58-bfe4-4b04-80e3-ee11c44e91a7.jpg?1562835499",
+        "normal": "https://cards.scryfall.io/normal/front/b/f/bfcfec58-bfe4-4b04-80e3-ee11c44e91a7.jpg?1562835499",
+        "large": "https://cards.scryfall.io/large/front/b/f/bfcfec58-bfe4-4b04-80e3-ee11c44e91a7.jpg?1562835499"
+      }
+    },
+    {
+      "card_id": "rapacious_dragon",
+      "name": "Rapacious Dragon",
+      "scryfall_id": "1098504a-977a-4733-a1ee-086461113a84",
+      "set": "tdc",
+      "collector_number": "229",
+      "lang": "en",
+      "released_at": "2025-04-11",
+      "uri": "https://api.scryfall.com/cards/1098504a-977a-4733-a1ee-086461113a84",
+      "scryfall_uri": "https://scryfall.com/card/tdc/229/rapacious-dragon?utm_source=api",
+      "type_line": "Creature — Dragon",
+      "mana_cost": "{4}{R}",
+      "cmc": 5.0,
+      "oracle_text": "Flying\nWhen this creature enters, create two Treasure tokens. (They're artifacts with \"{T}, Sacrifice this token: Add one mana of any color.\")",
+      "colors": [
+        "R"
+      ],
+      "color_identity": [
+        "R"
+      ],
+      "rarity": "uncommon",
+      "power": "3",
+      "toughness": "3",
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/1/0/1098504a-977a-4733-a1ee-086461113a84.jpg?1743206760",
+        "normal": "https://cards.scryfall.io/normal/front/1/0/1098504a-977a-4733-a1ee-086461113a84.jpg?1743206760",
+        "large": "https://cards.scryfall.io/large/front/1/0/1098504a-977a-4733-a1ee-086461113a84.jpg?1743206760"
+      }
+    },
+    {
+      "card_id": "shivan_dragon",
+      "name": "Shivan Dragon",
+      "scryfall_id": "1fcff1e0-2745-448d-a27b-e31719e222e9",
+      "set": "fdn",
+      "collector_number": "206",
+      "lang": "en",
+      "released_at": "2024-11-15",
+      "uri": "https://api.scryfall.com/cards/1fcff1e0-2745-448d-a27b-e31719e222e9",
+      "scryfall_uri": "https://scryfall.com/card/fdn/206/shivan-dragon?utm_source=api",
+      "type_line": "Creature — Dragon",
+      "mana_cost": "{4}{R}{R}",
+      "cmc": 6.0,
+      "oracle_text": "Flying\n{R}: This creature gets +1/+0 until end of turn.",
+      "colors": [
+        "R"
+      ],
+      "color_identity": [
+        "R"
+      ],
+      "rarity": "uncommon",
+      "power": "5",
+      "toughness": "5",
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/1/f/1fcff1e0-2745-448d-a27b-e31719e222e9.jpg?1730489362",
+        "normal": "https://cards.scryfall.io/normal/front/1/f/1fcff1e0-2745-448d-a27b-e31719e222e9.jpg?1730489362",
+        "large": "https://cards.scryfall.io/large/front/1/f/1fcff1e0-2745-448d-a27b-e31719e222e9.jpg?1730489362"
+      }
+    },
+    {
+      "card_id": "abrade",
+      "name": "Abrade",
+      "scryfall_id": "4c2a1b4e-858c-47a3-be89-9275e48d5475",
+      "set": "tdc",
+      "collector_number": "203",
+      "lang": "en",
+      "released_at": "2025-04-11",
+      "uri": "https://api.scryfall.com/cards/4c2a1b4e-858c-47a3-be89-9275e48d5475",
+      "scryfall_uri": "https://scryfall.com/card/tdc/203/abrade?utm_source=api",
+      "type_line": "Instant",
+      "mana_cost": "{1}{R}",
+      "cmc": 2.0,
+      "oracle_text": "Choose one —\n• Abrade deals 3 damage to target creature.\n• Destroy target artifact.",
+      "colors": [
+        "R"
+      ],
+      "color_identity": [
+        "R"
+      ],
+      "rarity": "uncommon",
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/4/c/4c2a1b4e-858c-47a3-be89-9275e48d5475.jpg?1743206610",
+        "normal": "https://cards.scryfall.io/normal/front/4/c/4c2a1b4e-858c-47a3-be89-9275e48d5475.jpg?1743206610",
+        "large": "https://cards.scryfall.io/large/front/4/c/4c2a1b4e-858c-47a3-be89-9275e48d5475.jpg?1743206610"
+      }
+    },
+    {
+      "card_id": "blaze",
+      "name": "Blaze",
+      "scryfall_id": "b16d0422-61ea-4039-b1c1-e590ace9156e",
+      "set": "bbd",
+      "collector_number": "167",
+      "lang": "en",
+      "released_at": "2018-06-08",
+      "uri": "https://api.scryfall.com/cards/b16d0422-61ea-4039-b1c1-e590ace9156e",
+      "scryfall_uri": "https://scryfall.com/card/bbd/167/blaze?utm_source=api",
+      "type_line": "Sorcery",
+      "mana_cost": "{X}{R}",
+      "cmc": 1.0,
+      "oracle_text": "Blaze deals X damage to any target.",
+      "colors": [
+        "R"
+      ],
+      "color_identity": [
+        "R"
+      ],
+      "rarity": "uncommon",
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/b/1/b16d0422-61ea-4039-b1c1-e590ace9156e.jpg?1562930706",
+        "normal": "https://cards.scryfall.io/normal/front/b/1/b16d0422-61ea-4039-b1c1-e590ace9156e.jpg?1562930706",
+        "large": "https://cards.scryfall.io/large/front/b/1/b16d0422-61ea-4039-b1c1-e590ace9156e.jpg?1562930706"
+      }
+    },
+    {
+      "card_id": "crucible_of_fire",
+      "name": "Crucible of Fire",
+      "scryfall_id": "d7a6f4dd-29c9-4084-a622-098b197a6eb7",
+      "set": "ima",
+      "collector_number": "122",
+      "lang": "en",
+      "released_at": "2017-11-17",
+      "uri": "https://api.scryfall.com/cards/d7a6f4dd-29c9-4084-a622-098b197a6eb7",
+      "scryfall_uri": "https://scryfall.com/card/ima/122/crucible-of-fire?utm_source=api",
+      "type_line": "Enchantment",
+      "mana_cost": "{3}{R}",
+      "cmc": 4.0,
+      "oracle_text": "Dragon creatures you control get +3/+3.",
+      "colors": [
+        "R"
+      ],
+      "color_identity": [
+        "R"
+      ],
+      "rarity": "rare",
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/d/7/d7a6f4dd-29c9-4084-a622-098b197a6eb7.jpg?1562854632",
+        "normal": "https://cards.scryfall.io/normal/front/d/7/d7a6f4dd-29c9-4084-a622-098b197a6eb7.jpg?1562854632",
+        "large": "https://cards.scryfall.io/large/front/d/7/d7a6f4dd-29c9-4084-a622-098b197a6eb7.jpg?1562854632"
+      }
+    },
+    {
+      "card_id": "dragon_tempest",
+      "name": "Dragon Tempest",
+      "scryfall_id": "39ac7ad0-e570-4209-988c-7c0f9b9d2004",
+      "set": "tdc",
+      "collector_number": "94",
+      "lang": "en",
+      "released_at": "2025-04-11",
+      "uri": "https://api.scryfall.com/cards/39ac7ad0-e570-4209-988c-7c0f9b9d2004",
+      "scryfall_uri": "https://scryfall.com/card/tdc/94/dragon-tempest?utm_source=api",
+      "type_line": "Enchantment",
+      "mana_cost": "{1}{R}",
+      "cmc": 2.0,
+      "oracle_text": "Whenever a creature you control with flying enters, it gains haste until end of turn.\nWhenever a Dragon you control enters, it deals X damage to any target, where X is the number of Dragons you control.",
+      "colors": [
+        "R"
+      ],
+      "color_identity": [
+        "R"
+      ],
+      "rarity": "uncommon",
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/3/9/39ac7ad0-e570-4209-988c-7c0f9b9d2004.jpg?1743206048",
+        "normal": "https://cards.scryfall.io/normal/front/3/9/39ac7ad0-e570-4209-988c-7c0f9b9d2004.jpg?1743206048",
+        "large": "https://cards.scryfall.io/large/front/3/9/39ac7ad0-e570-4209-988c-7c0f9b9d2004.jpg?1743206048"
+      }
+    },
+    {
+      "card_id": "lightning_bolt",
+      "name": "Lightning Bolt",
+      "scryfall_id": "77c6fa74-5543-42ac-9ead-0e890b188e99",
+      "set": "clu",
+      "collector_number": "141",
+      "lang": "en",
+      "released_at": "2024-02-23",
+      "uri": "https://api.scryfall.com/cards/77c6fa74-5543-42ac-9ead-0e890b188e99",
+      "scryfall_uri": "https://scryfall.com/card/clu/141/lightning-bolt?utm_source=api",
+      "type_line": "Instant",
+      "mana_cost": "{R}",
+      "cmc": 1.0,
+      "oracle_text": "Lightning Bolt deals 3 damage to any target.",
+      "colors": [
+        "R"
+      ],
+      "color_identity": [
+        "R"
+      ],
+      "rarity": "uncommon",
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/7/7/77c6fa74-5543-42ac-9ead-0e890b188e99.jpg?1706239968",
+        "normal": "https://cards.scryfall.io/normal/front/7/7/77c6fa74-5543-42ac-9ead-0e890b188e99.jpg?1706239968",
+        "large": "https://cards.scryfall.io/large/front/7/7/77c6fa74-5543-42ac-9ead-0e890b188e99.jpg?1706239968"
+      }
+    },
+    {
+      "card_id": "mana_geyser",
+      "name": "Mana Geyser",
+      "scryfall_id": "bd69539a-d5df-47b4-9785-86e20a58c72b",
+      "set": "tdc",
+      "collector_number": "223",
+      "lang": "en",
+      "released_at": "2025-04-11",
+      "uri": "https://api.scryfall.com/cards/bd69539a-d5df-47b4-9785-86e20a58c72b",
+      "scryfall_uri": "https://scryfall.com/card/tdc/223/mana-geyser?utm_source=api",
+      "type_line": "Sorcery",
+      "mana_cost": "{3}{R}{R}",
+      "cmc": 5.0,
+      "oracle_text": "Add {R} for each tapped land your opponents control.",
+      "colors": [
+        "R"
+      ],
+      "color_identity": [
+        "R"
+      ],
+      "rarity": "common",
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/b/d/bd69539a-d5df-47b4-9785-86e20a58c72b.jpg?1743206722",
+        "normal": "https://cards.scryfall.io/normal/front/b/d/bd69539a-d5df-47b4-9785-86e20a58c72b.jpg?1743206722",
+        "large": "https://cards.scryfall.io/large/front/b/d/bd69539a-d5df-47b4-9785-86e20a58c72b.jpg?1743206722"
+      }
+    },
+    {
+      "card_id": "seize_the_spoils",
+      "name": "Seize the Spoils",
+      "scryfall_id": "efcf7e75-5de2-45cc-9275-caccd73214fa",
+      "set": "fdn",
+      "collector_number": "546",
+      "lang": "en",
+      "released_at": "2024-11-15",
+      "uri": "https://api.scryfall.com/cards/efcf7e75-5de2-45cc-9275-caccd73214fa",
+      "scryfall_uri": "https://scryfall.com/card/fdn/546/seize-the-spoils?utm_source=api",
+      "type_line": "Sorcery",
+      "mana_cost": "{2}{R}",
+      "cmc": 3.0,
+      "oracle_text": "As an additional cost to cast this spell, discard a card.\nDraw two cards and create a Treasure token. (It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")",
+      "colors": [
+        "R"
+      ],
+      "color_identity": [
+        "R"
+      ],
+      "rarity": "common",
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/e/f/efcf7e75-5de2-45cc-9275-caccd73214fa.jpg?1730490674",
+        "normal": "https://cards.scryfall.io/normal/front/e/f/efcf7e75-5de2-45cc-9275-caccd73214fa.jpg?1730490674",
+        "large": "https://cards.scryfall.io/large/front/e/f/efcf7e75-5de2-45cc-9275-caccd73214fa.jpg?1730490674"
+      }
+    },
+    {
+      "card_id": "vow_of_lightning",
+      "name": "Vow of Lightning",
+      "scryfall_id": "a0742d43-8a67-4485-b0ce-5a4e057fa915",
+      "set": "mkc",
+      "collector_number": "164",
+      "lang": "en",
+      "released_at": "2024-02-09",
+      "uri": "https://api.scryfall.com/cards/a0742d43-8a67-4485-b0ce-5a4e057fa915",
+      "scryfall_uri": "https://scryfall.com/card/mkc/164/vow-of-lightning?utm_source=api",
+      "type_line": "Enchantment — Aura",
+      "mana_cost": "{2}{R}",
+      "cmc": 3.0,
+      "oracle_text": "Enchant creature\nEnchanted creature gets +2/+2, has first strike, and can't attack you or planeswalkers you control.",
+      "colors": [
+        "R"
+      ],
+      "color_identity": [
+        "R"
+      ],
+      "rarity": "uncommon",
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/a/0/a0742d43-8a67-4485-b0ce-5a4e057fa915.jpg?1706240869",
+        "normal": "https://cards.scryfall.io/normal/front/a/0/a0742d43-8a67-4485-b0ce-5a4e057fa915.jpg?1706240869",
+        "large": "https://cards.scryfall.io/large/front/a/0/a0742d43-8a67-4485-b0ce-5a4e057fa915.jpg?1706240869"
+      }
+    },
+    {
+      "card_id": "elvish_archdruid",
+      "name": "Elvish Archdruid",
+      "scryfall_id": "341da856-7414-403b-b2e3-4bebd58a5aa4",
+      "set": "fdn",
+      "collector_number": "219",
+      "lang": "en",
+      "released_at": "2024-11-15",
+      "uri": "https://api.scryfall.com/cards/341da856-7414-403b-b2e3-4bebd58a5aa4",
+      "scryfall_uri": "https://scryfall.com/card/fdn/219/elvish-archdruid?utm_source=api",
+      "type_line": "Creature — Elf Druid",
+      "mana_cost": "{1}{G}{G}",
+      "cmc": 3.0,
+      "oracle_text": "Other Elf creatures you control get +1/+1.\n{T}: Add {G} for each Elf you control.",
+      "colors": [
+        "G"
+      ],
+      "color_identity": [
+        "G"
+      ],
+      "rarity": "rare",
+      "power": "2",
+      "toughness": "2",
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/3/4/341da856-7414-403b-b2e3-4bebd58a5aa4.jpg?1730489413",
+        "normal": "https://cards.scryfall.io/normal/front/3/4/341da856-7414-403b-b2e3-4bebd58a5aa4.jpg?1730489413",
+        "large": "https://cards.scryfall.io/large/front/3/4/341da856-7414-403b-b2e3-4bebd58a5aa4.jpg?1730489413"
+      }
+    },
+    {
+      "card_id": "imaryll_elfhame_elite",
+      "name": "Imaryll, Elfhame Elite",
+      "scryfall_id": "c2c3e33c-8893-436e-ab3a-f8c2ae8b2527",
+      "set": "gn3",
+      "collector_number": "5",
+      "lang": "en",
+      "released_at": "2022-10-14",
+      "uri": "https://api.scryfall.com/cards/c2c3e33c-8893-436e-ab3a-f8c2ae8b2527",
+      "scryfall_uri": "https://scryfall.com/card/gn3/5/imaryll-elfhame-elite?utm_source=api",
+      "type_line": "Legendary Creature — Elf Warrior",
+      "mana_cost": "{2}{G}{G}",
+      "cmc": 4.0,
+      "oracle_text": "Whenever Imaryll attacks, it gets +X/+X until end of turn, where X is the number of other Elves you control.\nYou may have Imaryll assign its combat damage as though it weren't blocked.",
+      "colors": [
+        "G"
+      ],
+      "color_identity": [
+        "G"
+      ],
+      "rarity": "mythic",
+      "power": "3",
+      "toughness": "3",
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/c/2/c2c3e33c-8893-436e-ab3a-f8c2ae8b2527.jpg?1673301263",
+        "normal": "https://cards.scryfall.io/normal/front/c/2/c2c3e33c-8893-436e-ab3a-f8c2ae8b2527.jpg?1673301263",
+        "large": "https://cards.scryfall.io/large/front/c/2/c2c3e33c-8893-436e-ab3a-f8c2ae8b2527.jpg?1673301263"
+      }
+    },
+    {
+      "card_id": "beast_whisperer",
+      "name": "Beast Whisperer",
+      "scryfall_id": "daf4bcd2-3ae4-4803-9ea1-3bcc3de5ca59",
+      "set": "clu",
+      "collector_number": "158",
+      "lang": "en",
+      "released_at": "2024-02-23",
+      "uri": "https://api.scryfall.com/cards/daf4bcd2-3ae4-4803-9ea1-3bcc3de5ca59",
+      "scryfall_uri": "https://scryfall.com/card/clu/158/beast-whisperer?utm_source=api",
+      "type_line": "Creature — Elf Druid",
+      "mana_cost": "{2}{G}{G}",
+      "cmc": 4.0,
+      "oracle_text": "Whenever you cast a creature spell, draw a card.",
+      "colors": [
+        "G"
+      ],
+      "color_identity": [
+        "G"
+      ],
+      "rarity": "rare",
+      "power": "2",
+      "toughness": "3",
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/d/a/daf4bcd2-3ae4-4803-9ea1-3bcc3de5ca59.jpg?1706240020",
+        "normal": "https://cards.scryfall.io/normal/front/d/a/daf4bcd2-3ae4-4803-9ea1-3bcc3de5ca59.jpg?1706240020",
+        "large": "https://cards.scryfall.io/large/front/d/a/daf4bcd2-3ae4-4803-9ea1-3bcc3de5ca59.jpg?1706240020"
+      }
+    },
+    {
+      "card_id": "dwynens_elite",
+      "name": "Dwynen's Elite",
+      "scryfall_id": "89d94c28-ea2e-4a3d-935f-6b2d9f2efc7a",
+      "set": "fdn",
+      "collector_number": "218",
+      "lang": "en",
+      "released_at": "2024-11-15",
+      "uri": "https://api.scryfall.com/cards/89d94c28-ea2e-4a3d-935f-6b2d9f2efc7a",
+      "scryfall_uri": "https://scryfall.com/card/fdn/218/dwynens-elite?utm_source=api",
+      "type_line": "Creature — Elf Warrior",
+      "mana_cost": "{1}{G}",
+      "cmc": 2.0,
+      "oracle_text": "When this creature enters, if you control another Elf, create a 1/1 green Elf Warrior creature token.",
+      "colors": [
+        "G"
+      ],
+      "color_identity": [
+        "G"
+      ],
+      "rarity": "common",
+      "power": "2",
+      "toughness": "2",
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/8/9/89d94c28-ea2e-4a3d-935f-6b2d9f2efc7a.jpg?1730489407",
+        "normal": "https://cards.scryfall.io/normal/front/8/9/89d94c28-ea2e-4a3d-935f-6b2d9f2efc7a.jpg?1730489407",
+        "large": "https://cards.scryfall.io/large/front/8/9/89d94c28-ea2e-4a3d-935f-6b2d9f2efc7a.jpg?1730489407"
+      }
+    },
+    {
+      "card_id": "elvish_rejuvenator",
+      "name": "Elvish Rejuvenator",
+      "scryfall_id": "03ef5cff-2e2b-4096-8310-4c5aabcb0eac",
+      "set": "otc",
+      "collector_number": "191",
+      "lang": "en",
+      "released_at": "2024-04-19",
+      "uri": "https://api.scryfall.com/cards/03ef5cff-2e2b-4096-8310-4c5aabcb0eac",
+      "scryfall_uri": "https://scryfall.com/card/otc/191/elvish-rejuvenator?utm_source=api",
+      "type_line": "Creature — Elf Druid",
+      "mana_cost": "{2}{G}",
+      "cmc": 3.0,
+      "oracle_text": "When this creature enters, look at the top five cards of your library. You may put a land card from among them onto the battlefield tapped. Put the rest on the bottom of your library in a random order.",
+      "colors": [
+        "G"
+      ],
+      "color_identity": [
+        "G"
+      ],
+      "rarity": "common",
+      "power": "1",
+      "toughness": "1",
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/0/3/03ef5cff-2e2b-4096-8310-4c5aabcb0eac.jpg?1712354559",
+        "normal": "https://cards.scryfall.io/normal/front/0/3/03ef5cff-2e2b-4096-8310-4c5aabcb0eac.jpg?1712354559",
+        "large": "https://cards.scryfall.io/large/front/0/3/03ef5cff-2e2b-4096-8310-4c5aabcb0eac.jpg?1712354559"
+      }
+    },
+    {
+      "card_id": "elvish_skysweeper",
+      "name": "Elvish Skysweeper",
+      "scryfall_id": "a26c340e-ccfb-4e91-ab10-a8b7714a9089",
+      "set": "cma",
+      "collector_number": "104",
+      "lang": "en",
+      "released_at": "2017-06-09",
+      "uri": "https://api.scryfall.com/cards/a26c340e-ccfb-4e91-ab10-a8b7714a9089",
+      "scryfall_uri": "https://scryfall.com/card/cma/104/elvish-skysweeper?utm_source=api",
+      "type_line": "Creature — Elf Warrior",
+      "mana_cost": "{G}",
+      "cmc": 1.0,
+      "oracle_text": "{4}{G}, Sacrifice a creature: Destroy target creature with flying.",
+      "colors": [
+        "G"
+      ],
+      "color_identity": [
+        "G"
+      ],
+      "rarity": "common",
+      "power": "1",
+      "toughness": "1",
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/a/2/a26c340e-ccfb-4e91-ab10-a8b7714a9089.jpg?1592672929",
+        "normal": "https://cards.scryfall.io/normal/front/a/2/a26c340e-ccfb-4e91-ab10-a8b7714a9089.jpg?1592672929",
+        "large": "https://cards.scryfall.io/large/front/a/2/a26c340e-ccfb-4e91-ab10-a8b7714a9089.jpg?1592672929"
+      }
+    },
+    {
+      "card_id": "elvish_visionary",
+      "name": "Elvish Visionary",
+      "scryfall_id": "a2f174e6-9532-4fc3-815b-2dc3966c6523",
+      "set": "cmr",
+      "collector_number": "223",
+      "lang": "en",
+      "released_at": "2020-11-20",
+      "uri": "https://api.scryfall.com/cards/a2f174e6-9532-4fc3-815b-2dc3966c6523",
+      "scryfall_uri": "https://scryfall.com/card/cmr/223/elvish-visionary?utm_source=api",
+      "type_line": "Creature — Elf Shaman",
+      "mana_cost": "{1}{G}",
+      "cmc": 2.0,
+      "oracle_text": "When this creature enters, draw a card.",
+      "colors": [
+        "G"
+      ],
+      "color_identity": [
+        "G"
+      ],
+      "rarity": "common",
+      "power": "1",
+      "toughness": "1",
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/a/2/a2f174e6-9532-4fc3-815b-2dc3966c6523.jpg?1608910606",
+        "normal": "https://cards.scryfall.io/normal/front/a/2/a2f174e6-9532-4fc3-815b-2dc3966c6523.jpg?1608910606",
+        "large": "https://cards.scryfall.io/large/front/a/2/a2f174e6-9532-4fc3-815b-2dc3966c6523.jpg?1608910606"
+      }
+    },
+    {
+      "card_id": "end_raze_forerunners",
+      "name": "End-Raze Forerunners",
+      "scryfall_id": "47a74813-6d8b-4b11-8a5e-5b83d2d98c34",
+      "set": "clb",
+      "collector_number": "822",
+      "lang": "en",
+      "released_at": "2022-06-10",
+      "uri": "https://api.scryfall.com/cards/47a74813-6d8b-4b11-8a5e-5b83d2d98c34",
+      "scryfall_uri": "https://scryfall.com/card/clb/822/end-raze-forerunners?utm_source=api",
+      "type_line": "Creature — Boar",
+      "mana_cost": "{5}{G}{G}{G}",
+      "cmc": 8.0,
+      "oracle_text": "Vigilance, trample, haste\nWhen this creature enters, other creatures you control get +2/+2 and gain vigilance and trample until end of turn.",
+      "colors": [
+        "G"
+      ],
+      "color_identity": [
+        "G"
+      ],
+      "rarity": "rare",
+      "power": "7",
+      "toughness": "7",
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/4/7/47a74813-6d8b-4b11-8a5e-5b83d2d98c34.jpg?1674142250",
+        "normal": "https://cards.scryfall.io/normal/front/4/7/47a74813-6d8b-4b11-8a5e-5b83d2d98c34.jpg?1674142250",
+        "large": "https://cards.scryfall.io/large/front/4/7/47a74813-6d8b-4b11-8a5e-5b83d2d98c34.jpg?1674142250"
+      }
+    },
+    {
+      "card_id": "immaculate_magistrate",
+      "name": "Immaculate Magistrate",
+      "scryfall_id": "d9208db8-1ba5-4f9c-90a4-03e377ae6f86",
+      "set": "cmr",
+      "collector_number": "234",
+      "lang": "en",
+      "released_at": "2020-11-20",
+      "uri": "https://api.scryfall.com/cards/d9208db8-1ba5-4f9c-90a4-03e377ae6f86",
+      "scryfall_uri": "https://scryfall.com/card/cmr/234/immaculate-magistrate?utm_source=api",
+      "type_line": "Creature — Elf Shaman",
+      "mana_cost": "{3}{G}",
+      "cmc": 4.0,
+      "oracle_text": "{T}: Put a +1/+1 counter on target creature for each Elf you control.",
+      "colors": [
+        "G"
+      ],
+      "color_identity": [
+        "G"
+      ],
+      "rarity": "rare",
+      "power": "2",
+      "toughness": "2",
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/d/9/d9208db8-1ba5-4f9c-90a4-03e377ae6f86.jpg?1608910719",
+        "normal": "https://cards.scryfall.io/normal/front/d/9/d9208db8-1ba5-4f9c-90a4-03e377ae6f86.jpg?1608910719",
+        "large": "https://cards.scryfall.io/large/front/d/9/d9208db8-1ba5-4f9c-90a4-03e377ae6f86.jpg?1608910719"
+      }
+    },
+    {
+      "card_id": "joraga_visionary",
+      "name": "Joraga Visionary",
+      "scryfall_id": "a1ea2c17-382a-45e4-ac34-88bf8ba47169",
+      "set": "znr",
+      "collector_number": "188",
+      "lang": "en",
+      "released_at": "2020-09-25",
+      "uri": "https://api.scryfall.com/cards/a1ea2c17-382a-45e4-ac34-88bf8ba47169",
+      "scryfall_uri": "https://scryfall.com/card/znr/188/joraga-visionary?utm_source=api",
+      "type_line": "Creature — Elf Wizard",
+      "mana_cost": "{3}{G}",
+      "cmc": 4.0,
+      "oracle_text": "When this creature enters, draw a card.",
+      "colors": [
+        "G"
+      ],
+      "color_identity": [
+        "G"
+      ],
+      "rarity": "common",
+      "power": "3",
+      "toughness": "2",
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/a/1/a1ea2c17-382a-45e4-ac34-88bf8ba47169.jpg?1604198895",
+        "normal": "https://cards.scryfall.io/normal/front/a/1/a1ea2c17-382a-45e4-ac34-88bf8ba47169.jpg?1604198895",
+        "large": "https://cards.scryfall.io/large/front/a/1/a1ea2c17-382a-45e4-ac34-88bf8ba47169.jpg?1604198895"
+      }
+    },
+    {
+      "card_id": "llanowar_elves",
+      "name": "Llanowar Elves",
+      "scryfall_id": "6a0b230b-d391-4998-a3f7-7b158a0ec2cd",
+      "set": "fdn",
+      "collector_number": "227",
+      "lang": "en",
+      "released_at": "2024-11-15",
+      "uri": "https://api.scryfall.com/cards/6a0b230b-d391-4998-a3f7-7b158a0ec2cd",
+      "scryfall_uri": "https://scryfall.com/card/fdn/227/llanowar-elves?utm_source=api",
+      "type_line": "Creature — Elf Druid",
+      "mana_cost": "{G}",
+      "cmc": 1.0,
+      "oracle_text": "{T}: Add {G}.",
+      "colors": [
+        "G"
+      ],
+      "color_identity": [
+        "G"
+      ],
+      "rarity": "common",
+      "power": "1",
+      "toughness": "1",
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/6/a/6a0b230b-d391-4998-a3f7-7b158a0ec2cd.jpg?1731652605",
+        "normal": "https://cards.scryfall.io/normal/front/6/a/6a0b230b-d391-4998-a3f7-7b158a0ec2cd.jpg?1731652605",
+        "large": "https://cards.scryfall.io/large/front/6/a/6a0b230b-d391-4998-a3f7-7b158a0ec2cd.jpg?1731652605"
+      }
+    },
+    {
+      "card_id": "llanowar_tribe",
+      "name": "Llanowar Tribe",
+      "scryfall_id": "407c1b95-dc0c-4154-a441-fe25537df45c",
+      "set": "khc",
+      "collector_number": "66",
+      "lang": "en",
+      "released_at": "2021-02-05",
+      "uri": "https://api.scryfall.com/cards/407c1b95-dc0c-4154-a441-fe25537df45c",
+      "scryfall_uri": "https://scryfall.com/card/khc/66/llanowar-tribe?utm_source=api",
+      "type_line": "Creature — Elf Druid",
+      "mana_cost": "{G}{G}{G}",
+      "cmc": 3.0,
+      "oracle_text": "{T}: Add {G}{G}{G}.",
+      "colors": [
+        "G"
+      ],
+      "color_identity": [
+        "G"
+      ],
+      "rarity": "uncommon",
+      "power": "3",
+      "toughness": "3",
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/4/0/407c1b95-dc0c-4154-a441-fe25537df45c.jpg?1631234995",
+        "normal": "https://cards.scryfall.io/normal/front/4/0/407c1b95-dc0c-4154-a441-fe25537df45c.jpg?1631234995",
+        "large": "https://cards.scryfall.io/large/front/4/0/407c1b95-dc0c-4154-a441-fe25537df45c.jpg?1631234995"
+      }
+    },
+    {
+      "card_id": "sylvan_messenger",
+      "name": "Sylvan Messenger",
+      "scryfall_id": "085f1b89-857b-4e2b-b796-0b95e53322bd",
+      "set": "khc",
+      "collector_number": "75",
+      "lang": "en",
+      "released_at": "2021-02-05",
+      "uri": "https://api.scryfall.com/cards/085f1b89-857b-4e2b-b796-0b95e53322bd",
+      "scryfall_uri": "https://scryfall.com/card/khc/75/sylvan-messenger?utm_source=api",
+      "type_line": "Creature — Elf",
+      "mana_cost": "{3}{G}",
+      "cmc": 4.0,
+      "oracle_text": "Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)\nWhen this creature enters, reveal the top four cards of your library. Put all Elf cards revealed this way into your hand and the rest on the bottom of your library in any order.",
+      "colors": [
+        "G"
+      ],
+      "color_identity": [
+        "G"
+      ],
+      "rarity": "uncommon",
+      "power": "2",
+      "toughness": "2",
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/0/8/085f1b89-857b-4e2b-b796-0b95e53322bd.jpg?1631235184",
+        "normal": "https://cards.scryfall.io/normal/front/0/8/085f1b89-857b-4e2b-b796-0b95e53322bd.jpg?1631235184",
+        "large": "https://cards.scryfall.io/large/front/0/8/085f1b89-857b-4e2b-b796-0b95e53322bd.jpg?1631235184"
+      }
+    },
+    {
+      "card_id": "taunting_elf",
+      "name": "Taunting Elf",
+      "scryfall_id": "6b24af94-9632-47da-9bf3-e81bb743cd43",
+      "set": "ons",
+      "collector_number": "290",
+      "lang": "en",
+      "released_at": "2002-10-07",
+      "uri": "https://api.scryfall.com/cards/6b24af94-9632-47da-9bf3-e81bb743cd43",
+      "scryfall_uri": "https://scryfall.com/card/ons/290/taunting-elf?utm_source=api",
+      "type_line": "Creature — Elf",
+      "mana_cost": "{G}",
+      "cmc": 1.0,
+      "oracle_text": "All creatures able to block this creature do so.",
+      "colors": [
+        "G"
+      ],
+      "color_identity": [
+        "G"
+      ],
+      "rarity": "common",
+      "power": "0",
+      "toughness": "1",
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/6/b/6b24af94-9632-47da-9bf3-e81bb743cd43.jpg?1562920244",
+        "normal": "https://cards.scryfall.io/normal/front/6/b/6b24af94-9632-47da-9bf3-e81bb743cd43.jpg?1562920244",
+        "large": "https://cards.scryfall.io/large/front/6/b/6b24af94-9632-47da-9bf3-e81bb743cd43.jpg?1562920244"
+      }
+    },
+    {
+      "card_id": "thorn_lieutenant",
+      "name": "Thorn Lieutenant",
+      "scryfall_id": "0812e942-eb78-48c8-857e-5f0ff1bd777b",
+      "set": "m19",
+      "collector_number": "203",
+      "lang": "en",
+      "released_at": "2018-07-13",
+      "uri": "https://api.scryfall.com/cards/0812e942-eb78-48c8-857e-5f0ff1bd777b",
+      "scryfall_uri": "https://scryfall.com/card/m19/203/thorn-lieutenant?utm_source=api",
+      "type_line": "Creature — Elf Warrior",
+      "mana_cost": "{1}{G}",
+      "cmc": 2.0,
+      "oracle_text": "Whenever this creature becomes the target of a spell or ability an opponent controls, create a 1/1 green Elf Warrior creature token.\n{5}{G}: This creature gets +4/+4 until end of turn.",
+      "colors": [
+        "G"
+      ],
+      "color_identity": [
+        "G"
+      ],
+      "rarity": "rare",
+      "power": "2",
+      "toughness": "3",
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/0/8/0812e942-eb78-48c8-857e-5f0ff1bd777b.jpg?1562300286",
+        "normal": "https://cards.scryfall.io/normal/front/0/8/0812e942-eb78-48c8-857e-5f0ff1bd777b.jpg?1562300286",
+        "large": "https://cards.scryfall.io/large/front/0/8/0812e942-eb78-48c8-857e-5f0ff1bd777b.jpg?1562300286"
+      }
+    },
+    {
+      "card_id": "thornweald_archer",
+      "name": "Thornweald Archer",
+      "scryfall_id": "189f6199-f2fe-49a5-89ca-3c4cb39fbf2b",
+      "set": "fdn",
+      "collector_number": "559",
+      "lang": "en",
+      "released_at": "2024-11-15",
+      "uri": "https://api.scryfall.com/cards/189f6199-f2fe-49a5-89ca-3c4cb39fbf2b",
+      "scryfall_uri": "https://scryfall.com/card/fdn/559/thornweald-archer?utm_source=api",
+      "type_line": "Creature — Elf Archer",
+      "mana_cost": "{1}{G}",
+      "cmc": 2.0,
+      "oracle_text": "Reach (This creature can block creatures with flying.)\nDeathtouch (Any amount of damage this deals to a creature is enough to destroy it.)",
+      "colors": [
+        "G"
+      ],
+      "color_identity": [
+        "G"
+      ],
+      "rarity": "common",
+      "power": "2",
+      "toughness": "1",
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/1/8/189f6199-f2fe-49a5-89ca-3c4cb39fbf2b.jpg?1730490727",
+        "normal": "https://cards.scryfall.io/normal/front/1/8/189f6199-f2fe-49a5-89ca-3c4cb39fbf2b.jpg?1730490727",
+        "large": "https://cards.scryfall.io/large/front/1/8/189f6199-f2fe-49a5-89ca-3c4cb39fbf2b.jpg?1730490727"
+      }
+    },
+    {
+      "card_id": "broken_wings",
+      "name": "Broken Wings",
+      "scryfall_id": "1d7d5b71-7c1b-4fc2-a5ec-7285e17ffe0f",
+      "set": "dft",
+      "collector_number": "156",
+      "lang": "en",
+      "released_at": "2025-02-14",
+      "uri": "https://api.scryfall.com/cards/1d7d5b71-7c1b-4fc2-a5ec-7285e17ffe0f",
+      "scryfall_uri": "https://scryfall.com/card/dft/156/broken-wings?utm_source=api",
+      "type_line": "Instant",
+      "mana_cost": "{2}{G}",
+      "cmc": 3.0,
+      "oracle_text": "Destroy target artifact, enchantment, or creature with flying.",
+      "colors": [
+        "G"
+      ],
+      "color_identity": [
+        "G"
+      ],
+      "rarity": "common",
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/1/d/1d7d5b71-7c1b-4fc2-a5ec-7285e17ffe0f.jpg?1738356489",
+        "normal": "https://cards.scryfall.io/normal/front/1/d/1d7d5b71-7c1b-4fc2-a5ec-7285e17ffe0f.jpg?1738356489",
+        "large": "https://cards.scryfall.io/large/front/1/d/1d7d5b71-7c1b-4fc2-a5ec-7285e17ffe0f.jpg?1738356489"
+      }
+    },
+    {
+      "card_id": "elven_ambush",
+      "name": "Elven Ambush",
+      "scryfall_id": "70479c44-da7c-48c7-8c6a-47210dc03277",
+      "set": "khm",
+      "collector_number": "391",
+      "lang": "en",
+      "released_at": "2021-02-05",
+      "uri": "https://api.scryfall.com/cards/70479c44-da7c-48c7-8c6a-47210dc03277",
+      "scryfall_uri": "https://scryfall.com/card/khm/391/elven-ambush?utm_source=api",
+      "type_line": "Instant",
+      "mana_cost": "{3}{G}",
+      "cmc": 4.0,
+      "oracle_text": "Create a 1/1 green Elf Warrior creature token for each Elf you control.",
+      "colors": [
+        "G"
+      ],
+      "color_identity": [
+        "G"
+      ],
+      "rarity": "uncommon",
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/7/0/70479c44-da7c-48c7-8c6a-47210dc03277.jpg?1732306339",
+        "normal": "https://cards.scryfall.io/normal/front/7/0/70479c44-da7c-48c7-8c6a-47210dc03277.jpg?1732306339",
+        "large": "https://cards.scryfall.io/large/front/7/0/70479c44-da7c-48c7-8c6a-47210dc03277.jpg?1732306339"
+      }
+    },
+    {
+      "card_id": "invigorate",
+      "name": "Invigorate",
+      "scryfall_id": "e0899da3-7beb-4161-81a3-e2d694e5b8a5",
+      "set": "2xm",
+      "collector_number": "172",
+      "lang": "en",
+      "released_at": "2020-08-07",
+      "uri": "https://api.scryfall.com/cards/e0899da3-7beb-4161-81a3-e2d694e5b8a5",
+      "scryfall_uri": "https://scryfall.com/card/2xm/172/invigorate?utm_source=api",
+      "type_line": "Instant",
+      "mana_cost": "{2}{G}",
+      "cmc": 3.0,
+      "oracle_text": "If you control a Forest, rather than pay this spell's mana cost, you may have an opponent gain 3 life.\nTarget creature gets +4/+4 until end of turn.",
+      "colors": [
+        "G"
+      ],
+      "color_identity": [
+        "G"
+      ],
+      "rarity": "uncommon",
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/e/0/e0899da3-7beb-4161-81a3-e2d694e5b8a5.jpg?1599707311",
+        "normal": "https://cards.scryfall.io/normal/front/e/0/e0899da3-7beb-4161-81a3-e2d694e5b8a5.jpg?1599707311",
+        "large": "https://cards.scryfall.io/large/front/e/0/e0899da3-7beb-4161-81a3-e2d694e5b8a5.jpg?1599707311"
+      }
+    },
+    {
+      "card_id": "overrun",
+      "name": "Overrun",
+      "scryfall_id": "1d8e9cbb-8bf4-4a48-a58e-79deb3abdf7f",
+      "set": "fdn",
+      "collector_number": "230",
+      "lang": "en",
+      "released_at": "2024-11-15",
+      "uri": "https://api.scryfall.com/cards/1d8e9cbb-8bf4-4a48-a58e-79deb3abdf7f",
+      "scryfall_uri": "https://scryfall.com/card/fdn/230/overrun?utm_source=api",
+      "type_line": "Sorcery",
+      "mana_cost": "{2}{G}{G}{G}",
+      "cmc": 5.0,
+      "oracle_text": "Creatures you control get +3/+3 and gain trample until end of turn. (Each of those creatures can deal excess combat damage to the player or planeswalker it's attacking.)",
+      "colors": [
+        "G"
+      ],
+      "color_identity": [
+        "G"
+      ],
+      "rarity": "uncommon",
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/1/d/1d8e9cbb-8bf4-4a48-a58e-79deb3abdf7f.jpg?1730489456",
+        "normal": "https://cards.scryfall.io/normal/front/1/d/1d8e9cbb-8bf4-4a48-a58e-79deb3abdf7f.jpg?1730489456",
+        "large": "https://cards.scryfall.io/large/front/1/d/1d8e9cbb-8bf4-4a48-a58e-79deb3abdf7f.jpg?1730489456"
+      }
+    },
+    {
+      "card_id": "rabid_bite",
+      "name": "Rabid Bite",
+      "scryfall_id": "53a73200-b798-4bfd-a431-8b94e17b70be",
+      "set": "blb",
+      "collector_number": "394",
+      "lang": "en",
+      "released_at": "2024-08-02",
+      "uri": "https://api.scryfall.com/cards/53a73200-b798-4bfd-a431-8b94e17b70be",
+      "scryfall_uri": "https://scryfall.com/card/blb/394/rabid-bite?utm_source=api",
+      "type_line": "Sorcery",
+      "mana_cost": "{1}{G}",
+      "cmc": 2.0,
+      "oracle_text": "Target creature you control deals damage equal to its power to target creature you don't control.",
+      "colors": [
+        "G"
+      ],
+      "color_identity": [
+        "G"
+      ],
+      "rarity": "common",
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/5/3/53a73200-b798-4bfd-a431-8b94e17b70be.jpg?1721428112",
+        "normal": "https://cards.scryfall.io/normal/front/5/3/53a73200-b798-4bfd-a431-8b94e17b70be.jpg?1721428112",
+        "large": "https://cards.scryfall.io/large/front/5/3/53a73200-b798-4bfd-a431-8b94e17b70be.jpg?1721428112"
+      }
+    },
+    {
+      "card_id": "ram_through",
+      "name": "Ram Through",
+      "scryfall_id": "44063a90-e4cf-4bcd-a128-792de15371a7",
+      "set": "cmm",
+      "collector_number": "314",
+      "lang": "en",
+      "released_at": "2023-08-04",
+      "uri": "https://api.scryfall.com/cards/44063a90-e4cf-4bcd-a128-792de15371a7",
+      "scryfall_uri": "https://scryfall.com/card/cmm/314/ram-through?utm_source=api",
+      "type_line": "Instant",
+      "mana_cost": "{1}{G}",
+      "cmc": 2.0,
+      "oracle_text": "Target creature you control deals damage equal to its power to target creature you don't control. If the creature you control has trample, excess damage is dealt to that creature's controller instead.",
+      "colors": [
+        "G"
+      ],
+      "color_identity": [
+        "G"
+      ],
+      "rarity": "common",
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/4/4/44063a90-e4cf-4bcd-a128-792de15371a7.jpg?1689998782",
+        "normal": "https://cards.scryfall.io/normal/front/4/4/44063a90-e4cf-4bcd-a128-792de15371a7.jpg?1689998782",
+        "large": "https://cards.scryfall.io/large/front/4/4/44063a90-e4cf-4bcd-a128-792de15371a7.jpg?1689998782"
+      }
+    },
+    {
+      "card_id": "regrowth",
+      "name": "Regrowth",
+      "scryfall_id": "d771fc5d-b9a1-4637-8241-3f54616b64af",
+      "set": "mh1",
+      "collector_number": "175",
+      "lang": "en",
+      "released_at": "2019-06-14",
+      "uri": "https://api.scryfall.com/cards/d771fc5d-b9a1-4637-8241-3f54616b64af",
+      "scryfall_uri": "https://scryfall.com/card/mh1/175/regrowth?utm_source=api",
+      "type_line": "Sorcery",
+      "mana_cost": "{1}{G}",
+      "cmc": 2.0,
+      "oracle_text": "Return target card from your graveyard to your hand.",
+      "colors": [
+        "G"
+      ],
+      "color_identity": [
+        "G"
+      ],
+      "rarity": "uncommon",
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/d/7/d771fc5d-b9a1-4637-8241-3f54616b64af.jpg?1562202155",
+        "normal": "https://cards.scryfall.io/normal/front/d/7/d771fc5d-b9a1-4637-8241-3f54616b64af.jpg?1562202155",
+        "large": "https://cards.scryfall.io/large/front/d/7/d771fc5d-b9a1-4637-8241-3f54616b64af.jpg?1562202155"
+      }
+    },
+    {
+      "card_id": "vow_of_wildness",
+      "name": "Vow of Wildness",
+      "scryfall_id": "764fa7f1-b92b-42cc-983e-e0b5457369a7",
+      "set": "cmr",
+      "collector_number": "262",
+      "lang": "en",
+      "released_at": "2020-11-20",
+      "uri": "https://api.scryfall.com/cards/764fa7f1-b92b-42cc-983e-e0b5457369a7",
+      "scryfall_uri": "https://scryfall.com/card/cmr/262/vow-of-wildness?utm_source=api",
+      "type_line": "Enchantment — Aura",
+      "mana_cost": "{2}{G}",
+      "cmc": 3.0,
+      "oracle_text": "Enchant creature\nEnchanted creature gets +3/+3, has trample, and can't attack you or planeswalkers you control.",
+      "colors": [
+        "G"
+      ],
+      "color_identity": [
+        "G"
+      ],
+      "rarity": "uncommon",
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/7/6/764fa7f1-b92b-42cc-983e-e0b5457369a7.jpg?1608910977",
+        "normal": "https://cards.scryfall.io/normal/front/7/6/764fa7f1-b92b-42cc-983e-e0b5457369a7.jpg?1608910977",
+        "large": "https://cards.scryfall.io/large/front/7/6/764fa7f1-b92b-42cc-983e-e0b5457369a7.jpg?1608910977"
+      }
+    },
+    {
+      "card_id": "wirewood_pride",
+      "name": "Wirewood Pride",
+      "scryfall_id": "a559e844-06c9-4953-bc2c-a58e4170fe47",
+      "set": "ons",
+      "collector_number": "303",
+      "lang": "en",
+      "released_at": "2002-10-07",
+      "uri": "https://api.scryfall.com/cards/a559e844-06c9-4953-bc2c-a58e4170fe47",
+      "scryfall_uri": "https://scryfall.com/card/ons/303/wirewood-pride?utm_source=api",
+      "type_line": "Instant",
+      "mana_cost": "{G}",
+      "cmc": 1.0,
+      "oracle_text": "Target creature gets +X/+X until end of turn, where X is the number of Elves on the battlefield.",
+      "colors": [
+        "G"
+      ],
+      "color_identity": [
+        "G"
+      ],
+      "rarity": "common",
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/a/5/a559e844-06c9-4953-bc2c-a58e4170fe47.jpg?1562934080",
+        "normal": "https://cards.scryfall.io/normal/front/a/5/a559e844-06c9-4953-bc2c-a58e4170fe47.jpg?1562934080",
+        "large": "https://cards.scryfall.io/large/front/a/5/a559e844-06c9-4953-bc2c-a58e4170fe47.jpg?1562934080"
+      }
+    },
+
+    {
+      "card_id": "basic_swamp",
+      "name": "Swamp",
+      "mana_cost": "{0}",
+      "type_line": "Basic Land — Swamp",
+      "colors": [],
+      "color_identity": ["B"],
+      "oracle_text": "{T}: Add {B}."
+    },
+
+    {
+      "card_id": "basic_mountain",
+      "name": "Mountain",
+      "mana_cost": "{0}",
+      "type_line": "Basic Land — Mountain",
+      "colors": [],
+      "color_identity": ["R"],
+      "oracle_text": "{T}: Add {R}."
+    },
+
+    {
+      "card_id": "basic_plains",
+      "name": "Plains",
+      "mana_cost": "{0}",
+      "type_line": "Basic Land — Plains",
+      "colors": [],
+      "color_identity": ["W"],
+      "oracle_text": "{T}: Add {W}."
+    },
+
+    {
+      "card_id": "basic_island",
+      "name": "Island",
+      "mana_cost": "{0}",
+      "type_line": "Basic Land — Island",
+      "colors": [],
+      "color_identity": ["U"],
+      "oracle_text": "{T}: Add {U}."
+    },
+
+    {
+      "card_id": "basic_forest",
+      "name": "Forest",
+      "mana_cost": "{0}",
+      "type_line": "Basic Land — Forest",
+      "colors": [],
+      "color_identity": ["G"],
+      "oracle_text": "{T}: Add {G}."
+    }
+  ]
+}
