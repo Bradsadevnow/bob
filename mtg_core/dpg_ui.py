@@ -1,5 +1,3 @@
-from __future__ import annotations
-
 import os
 from dataclasses import dataclass
 from typing import Any, Callable, Dict, List, Optional
@@ -108,6 +106,7 @@ class _DPGPlaytestUI:
         self._art_cache: Optional[_ArtCache] = None
         self._textures: Dict[str, int] = {}
         self._cast_choice_by_instance: Dict[str, Dict[str, Any]] = {}
+        self._hovered_card: Optional[int] = None
 
         dpg.create_context()
         dpg.create_viewport(title="MTG Playtest UI v0", width=1200, height=900)
@@ -131,6 +130,11 @@ class _DPGPlaytestUI:
 
         with dpg.texture_registry(tag="mtg_textures"):
             pass
+
+        # Create a popup for zoomed card preview
+        with dpg.window(tag="card_zoom_popup", show=False, no_move=True, no_scrollbar=True,
+                       no_collapse=True, no_title_bar=True, modal=True, pos=[0, 0]):
+            texture_tag = "zoomed_card_texture"
 
         dpg.setup_dearpygui()
         dpg.show_viewport()
@@ -175,6 +179,7 @@ class _DPGPlaytestUI:
         if not dpg.is_dearpygui_running():
             raise SystemExit(0)
         self._sync_hold_gate()
+        self._handle_card_hover()
         dpg.render_dearpygui_frame()
 
     def wait_for_action(self) -> Action:
@@ -239,16 +244,17 @@ class _DPGPlaytestUI:
         for perm in v.zones.battlefield:
             parent = self.TAG_BF_YOU if getattr(perm, "controller_id", None) == self._player_id else self.TAG_BF_OPP
             instance_id = getattr(perm, "instance_id", None)
-            tex = self._get_card_texture(getattr(perm, "card_id", ""), getattr(perm, "name", ""))
+            card_id = getattr(perm, "card_id", "")
+            card_name = getattr(perm, "name", "")
+            tex = self._get_card_texture(card_id, card_name)
             with dpg.group(parent=parent, horizontal=True):
-                if tex is not None:
+                if isinstance(tex, int):
                     if getattr(perm, "tapped", False):
                         dpg.add_image_button(
                             tex,
                             width=70,
                             height=100,
-                            rotation=90,
-                            callback=self._on_select_perm,
+                                    callback=self._on_select_perm,
                             user_data=instance_id,
                         )
                     else:
@@ -267,9 +273,10 @@ class _DPGPlaytestUI:
                         callback=self._on_select_perm,
                         user_data=instance_id,
                     )
-                stats = self._format_perm_stats(perm)
-                if stats:
-                    dpg.add_text(stats)
+                    stats = self._format_perm_stats(perm)
+                    if stats:
+                        dpg.add_text(stats)
+
 
     def _refresh_hand(self) -> None:
         dpg.delete_item(self.TAG_HAND, children_only=True)
@@ -277,8 +284,10 @@ class _DPGPlaytestUI:
             return
         with dpg.group(horizontal=True, parent=self.TAG_HAND):
             for ci in self._visible.zones.hand:
-                tex = self._get_card_texture(getattr(ci, "card_id", ""), getattr(ci, "name", ""))
-                if tex is not None:
+                card_id = getattr(ci, "card_id", "")
+                card_name = getattr(ci, "name", "")
+                tex = self._get_card_texture(card_id, card_name)
+                if isinstance(tex, int):
                     instance_id = getattr(ci, "instance_id", None)
                     if instance_id in self._cast_choice_by_instance:
                         dpg.add_image_button(
@@ -293,6 +302,9 @@ class _DPGPlaytestUI:
                 else:
                     # Placeholder when art is missing; no card names in UI.
                     dpg.add_button(label="", width=70, height=100)
+
+        # Add hover handlers for hand cards
+        self._setup_hover_handlers(self.TAG_HAND, card_id, tex)
 
     def _refresh_stack(self) -> None:
         dpg.delete_item(self.TAG_STACK, children_only=True)
@@ -705,6 +717,61 @@ class _DPGPlaytestUI:
         texture_id = dpg.add_static_texture(width, height, data, parent="mtg_textures")
         self._textures[card_id] = texture_id
         return texture_id
+
+    def _setup_hover_handlers(self, parent_tag: str, card_id: str, tex: Optional[int]) -> None:
+        """Setup hover handlers for cards in a container."""
+        if not isinstance(tex, int) or not card_id:
+            return
+
+        # Get all image buttons in the parent
+        items = dpg.get_item_children(parent_tag)[1]  # Skip group headers
+        for item in items:
+            if dpg.get_item_type(item) == "mvgImageButton":
+                dpg.configure_item(item, user_data={"card_id": card_id, "texture": tex})
+
+    def _handle_card_hover(self) -> None:
+        """Handle mouse hover events to show zoomed card preview."""
+        hovered = dpg.is_item_hovered("card_zoom_popup")
+        if hovered and self._hovered_card is not None:
+            # Keep showing the current zoom
+            return
+
+        # Check for hover on battlefield cards
+        bf_items = dpg.get_item_children(self.TAG_BF_YOU)[1] + dpg.get_item_children(self.TAG_BF_OPP)[1]
+        hand_items = dpg.get_item_children(self.TAG_HAND)[1]
+
+        all_items = bf_items + hand_items
+
+        for item in all_items:
+            if dpg.is_item_hovered(item):
+                user_data = dpg.get_item_user_data(item)
+                if isinstance(user_data, dict) and "texture" in user_data:
+                    tex_id = user_data["texture"]
+                    if tex_id != self._hovered_card:
+                        self._show_zoomed_card(tex_id)
+
+        # If mouse is not hovering over any card, hide the popup
+        if not any(dpg.is_item_hovered(item) for item in all_items):
+            if dpg.does_item_exist("card_zoom_popup"):
+                dpg.configure_item("card_zoom_popup", show=False)
+            self._hovered_card = None
+
+    def _show_zoomed_card(self, texture_id: int) -> None:
+        """Show the zoomed card preview at mouse position."""
+        if not dpg.does_item_exist("card_zoom_popup"):
+            return
+
+        # Get mouse position and adjust for popup size
+        mx, my = dpg.get_mouse_pos()
+        width, height = 250, 350
+
+        # Position the popup near the mouse cursor
+        x = max(0, min(mx - width // 2, 1920 - width))
+        y = max(0, min(my + 20, 1080 - height))
+
+        dpg.configure_item("card_zoom_popup", pos=[int(x), int(y)], show=True)
+        dpg.set_value("zoomed_card_image", texture_id, user_data=texture_id)
+        self._hovered_card = texture_id
 
 
 _UI_SINGLETON: Optional[_DPGPlaytestUI] = None

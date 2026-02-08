@@ -226,6 +226,9 @@ class ChatClient(Protocol):
     def chat_text(self, *, messages: list[dict[str, Any]], temperature: float, max_tokens: int, timeout_s: int) -> str: ...
 
 
+# Helper functions for JSON extraction and cleanup
+
+
 def _strip_code_fences(raw: str) -> str:
     text = (raw or "").strip()
     if "```" not in text:
