@@ -92,6 +92,11 @@ class AIPregameDecider:
             ],
         }
         raw = self._call_llm_blocking(system_prompt, payload)
+        # Retry once if the AI returns an empty string
+        if not raw or not raw.strip():
+            raw = self._call_llm_blocking(system_prompt, payload)
+            if not raw or not raw.strip():
+                raise RuntimeError("Empty response from mulligan AI.")
 
         try:
             data = _load_json(raw)
@@ -255,9 +260,23 @@ def _strip_reasoning_block(raw: str) -> str:
 
 
 def _load_json(raw: str) -> Dict[str, Any]:
-    text = _strip_code_fences(raw)
+    # Strip any surrounding code fences or extraneous text.
+    text = _strip_code_fences(raw).strip()
+    # Attempt to locate the first complete JSON object in the string.
+    start = text.find("{")
+    end = text.rfind("}")
+    if start != -1 and end != -1 and end > start:
+        json_candidate = text[start:end+1]
+    else:
+        json_candidate = text
+    # Try parsing the cleaned candidate first.
+    try:
+        return json.loads(json_candidate)
+    except json.JSONDecodeError:
+        pass
+    # Fallback to original heuristics if parsing fails.
     candidates = [
-        text,
+        json_candidate,
         _extract_json_object(text),
     ]
     candidates.append(_strip_reasoning_block(candidates[-1]))

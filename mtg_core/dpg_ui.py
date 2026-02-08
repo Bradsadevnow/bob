@@ -240,15 +240,25 @@ class _DPGPlaytestUI:
             parent = self.TAG_BF_YOU if getattr(perm, "controller_id", None) == self._player_id else self.TAG_BF_OPP
             instance_id = getattr(perm, "instance_id", None)
             tex = self._get_card_texture(getattr(perm, "card_id", ""), getattr(perm, "name", ""))
-            with dpg.group(parent=parent):
+            with dpg.group(parent=parent, horizontal=True):
                 if tex is not None:
-                    dpg.add_image_button(
-                        tex,
-                        width=70,
-                        height=100,
-                        callback=self._on_select_perm,
-                        user_data=instance_id,
-                    )
+                    if getattr(perm, "tapped", False):
+                        dpg.add_image_button(
+                            tex,
+                            width=70,
+                            height=100,
+                            rotation=90,
+                            callback=self._on_select_perm,
+                            user_data=instance_id,
+                        )
+                    else:
+                        dpg.add_image_button(
+                            tex,
+                            width=70,
+                            height=100,
+                            callback=self._on_select_perm,
+                            user_data=instance_id,
+                        )
                 else:
                     dpg.add_button(
                         label="",
@@ -466,8 +476,13 @@ class _DPGPlaytestUI:
         label = dpg.get_value(combo_tag)
         target_map = dpg.get_item_user_data(combo_tag) or {}
         target = target_map.get(label)
+        # Only enforce target presence if the spell actually requires one
         if target is None:
+            # If the selected target is not allowed, raise an error
             raise RuntimeError("Cast spell requires a valid target")
+        # If no target is required, allow casting without a target
+        if not target:
+            target = None
         action = Action(
             ActionType.CAST_SPELL,
             actor_id=self._player_id or "",
@@ -608,8 +623,6 @@ class _DPGPlaytestUI:
         pt = ""
         if power is not None and toughness is not None:
             pt = f"{power}/{toughness}"
-        if tapped:
-            return f"{pt} T".strip()
         return pt
 
     def _format_card_label(self, ci: Any) -> str:

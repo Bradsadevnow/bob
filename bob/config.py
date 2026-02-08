@@ -21,7 +21,7 @@ class BobConfig:
     local: ModelConfig = ModelConfig(
         base_url=os.getenv("BOB_LOCAL_BASE_URL", "http://localhost:1234/v1").rstrip("/"),
         api_key=os.getenv("BOB_LOCAL_API_KEY", "lm-studio"),
-        model=os.getenv("BOB_LOCAL_MODEL", "mistralai/ministral-3-14b-reasoning"),
+        model=os.getenv("BOB_LOCAL_MODEL", "openai/gpt-oss-20b"),
     )
 
     # Remote model for MTG calls by default (OpenAI/compatible)
